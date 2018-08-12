@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  <!--  Mobile Navigation  -->
+  {% include mobilenav.html %}
+
+  <!--  Navigation  -->
+  {% include header.html %}
+
+<section class="hero is-fullheight" style="background: black url(https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f38005f4ef6c02f1e40c1a3af591f5e9&auto=format&fit=crop&w=1353&q=80) center / cover;">
+
+  <!-- .hero-head -->
+  <div class="hero-head">
+
+  <!-- </div> <!-- /.hero-head --
+  <header class="hero-body">
+    <div class="is-overlay has-text-centered single-spaced" style="top: 350px;">
+      <!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> --
+      <h1 class="title is-1 has-text-darkgrey"> A bit about us, <br> and our clients.</h1>
+    </div>
+  </header>  <!-- /Hero Body   --
+</section> -->
+
+<section class="hero has-background-magenta" id="work">
+  <div class="columns is-multiline is-marginless work-parent">
+    {% for set in site.work %}
+      <div class="column work-child" style="padding:0px;">
+        <article class="work-item has-text-centered" style="background:url({{set.head-image}}) center / cover;">
+          <a href="{{set.url}}"><div>
+            <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
+            <p class="">{{set.subtitle}}</p> 
+          </div></a>
+        </article>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+  <!--   Footer   -->
+  
+  {% include footer.html %}
+
+  <!-- Scripts -->
+  {% include scripts.html %}
+  
+</body>
+</html>

@@ -1,0 +1,116 @@
+.wrapper {
+  position: relative;
+  width: 50em;
+  height: 50em;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: transform 450ms;
+}
+
+.wrapper>li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  transform-origin: 100% 100%;
+  transition: padding 250ms, background 200ms;
+}
+
+.wrapper>li>span {
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: 85%;
+  padding: 7px;
+  transition: font-size, 1s ease;
+}
+
+.in-active {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.active {
+  font-size: 144px;
+  font-weight: bold;
+}
+
+.wrapper>li:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.wrapper>li>span:nth-child(1+1) {
+  transform: rotate(0deg);
+}
+
+.rotated-1 {
+  transform: rotate(0deg);
+}
+
+.wrapper>li:nth-child(2) {
+  transform: rotate(120deg);
+}
+
+.wrapper>li>span:nth-child(2+1) {
+  transform: rotate(120deg);
+}
+
+.rotated-2 {
+  transform: rotate(-120deg);
+}
+
+.wrapper>li:nth-child(3) {
+  transform: rotate(240deg);
+}
+
+.wrapper>li>span:nth-child(3+1) {
+  transform: rotate(240deg);
+}
+
+.rotated-3 {
+  transform: rotate(-240deg);
+}
+
+@media (max-width: 1440px) {
+  .in-active {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .active {
+    font-size: 42px;
+    font-weight: bold;
+  }
+  .wrapper {
+    width: 30em;
+    height: 30em;
+  }
+  .wrapper>li>span {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 20em;
+    height: 20em;
+  }
+  .wrapper>li>span {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .in-active {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .active {
+    font-size: 36px;
+    font-weight: bold;
+  }
+}

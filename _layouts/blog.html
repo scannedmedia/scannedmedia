@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <!--  Mobile Navigation  -->
+    {% include mobilenav.html %}
+
+    <!--  Navigation  -->
+    {% include header.html %}
+
+<section class="hero is-fullheight" style="background: black url('https://images.unsplash.com/photo-1519146440399-f4b73933177f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f97338a2a735f3f1386c03cef3c1318a&auto=format&fit=crop&w=1867&q=80') center / cover;">
+
+<!-- .hero-head -->
+<div class="hero-head">
+
+</div> <!-- /.hero-head -->
+<header class="hero-body">
+	<div class="is-overlay has-text-centered single-spaced" style="top: 350px;">
+<!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> -->
+		<h1 class="title is-1 has-text-white">Read a bit about what <br> we've been up to recently.</h1>
+	</div>
+</header>  <!-- /Hero Body   -->
+</section>
+
+<section class="hero has-background-magenta" id="posts">
+  <div class="container is-widescreen center is-fullwidth" style="width:100%;">
+    <div class="columns is-multiline posts">
+     {% for post in site.posts %}
+<!--    use a conditional to iterate through an int -->  
+      <article class="column">
+        <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:500px;">
+          <div class="featured-content" style="width:100%; height:100%;">
+            <div class="content blog-posts">
+              <h4 class="">{{ post.catagory }}<span> | {{ post.date }}</span></h4>
+              <a href="{{post.link}}"><h2 class="">{{ post.title }}</h2></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+  <!--   Footer   -->
+  
+  {% include footer.html %}
+
+  <!-- Scripts -->
+  {% include scripts.html %}
+  
+</body>
+</html>

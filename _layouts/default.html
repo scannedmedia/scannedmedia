@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  <!--  Mobile Navigation  -->
+  {% include mobilenav.html %}
+
+  <!--  Navigation  -->
+  {% include header.html %}
+
+  <section class="hero cover is-fullheight">
+
+    <!-- .hero-head -->
+    <div class="hero-head">
+    
+    </div> <!-- /.hero-head -->
+    <header class="hero-body">
+      <div class="has-text-centered" style="width:100%;">
+    <!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> -->
+          <h1 class="title is-size-1 has-text-white">Scanned Media <br> <span class="is-size-3 is-uppercase">has the creative.</span></h1>
+      </div>
+    </header>  <!-- /Hero Body   -->
+    </section>
+    
+    <section class="section is-medium has-background-lightteal" id="about">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6 is-offset-3 has-background-teal">
+            <div class="has-text-white">
+              <h2 class="is-size-2 has-text-weight-bold">We're Scanned Media</h2>
+              <p class="is-size-5-desktop">Here at Scanned Media, our goal is to provide the tools and strategy small businesses need. We've been in operation since 2008, and over the last 8 years, we have been implementing very specific solutions. However, as we moved forward, we've been building our set of skills. Growing to a small team capable of fulfilling your businesses communication needs, either digitally or through traditional print services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.hero -->
+    <section class="hero is-fullheight" id="services">
+      <canvas class="is-fullheight" id="bganimation" ></canvas>
+    <!--   <div class="hero-head columns is-desktop">
+        <div class="column "> 
+          <div class="container">
+            <h2 class="title has-text-centered is-size-1"> Our Services </h2> 
+          </div>
+        </div>
+      </div> -->
+      <div class="hero-body">
+        <div class="container">
+          <section class="ac-container columns" style="align-items:center;">
+            <div class="column">
+              <input id="ac-1" name="accordion-1" type="radio" />
+              <label for="ac-1" class="has-text-centered">
+                <img src="https://www.krsites.com/wp-content/uploads/2015/06/Orygyns-Coffee-Mockup-2.png" alt=""><br>
+                Branding
+              </label>
+              <article class="ac-medium">
+                <div>
+                  <p>Some content... </p>
+                  <a href="#"><button class="button is-fullwidth">Learn More</button></a>
+                </div>
+              </article>
+            </div>
+            <div class="column">
+              <input id="ac-2" name="accordion-1" type="radio" checked/>
+              <label for="ac-2" class="has-text-centered">
+                <img src="http://stepforadder.com/wp-content/uploads/2015/09/mobile-application-development.png" alt=""><br>
+                Apps
+              </label>
+              <article class="ac-medium">
+                <div>
+                  <p>Some content... </p>
+                  <a href="#"><button class="button is-fullwidth">Learn More</button></a>
+                </div>
+              </article>
+            </div>
+            <div class="column">
+              <input id="ac-3" name="accordion-1" type="radio" />
+              <label for="ac-3" class="has-text-centered">
+                <img src="http://www.4lpi.com/wp-content/uploads/2016/08/WeConnect-Sample-EpiphanyCathedral.png" alt=""><br>
+                Websites
+              </label>
+              <article class="ac-small">
+                <div>
+                  <p>Some content... </p>
+                  <a href="#"><button class="button is-fullwidth">Learn More</button></a>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+        
+    <section class="hero has-background-lightgrey" id="posts">
+      <div class="container is-widescreen center is-fullwidth" >
+        <div class="columns is-multiline posts">
+          <div class="column">
+            <h2 class="title is-size-2 has-text-centered is-uppercase">Have you read our latest blog posts?</h2>   
+          </div>
+         {% for post in site.posts %}
+          <article class="column">
+            <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:500px;">
+              <div class="featured-content" style="width:100%; height:100%;">
+                <div class="content blog-posts">
+                  <h4 class="">{{ post.catagory }}<span> | {{ post.date }}</span></h4>
+                  <a href="{{post.url}}"><h2 class="">{{ post.title }}</h2></a>
+                </div>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials has-background-grey-dark">
+      <div class="container">
+      <div class="columns is-mobile">
+        <div class="column is-1 is-offset-2-desktop desktop carousel-nav- is-size-2 has-text-white is-narrow-mobile">
+          <div class="carousel-navigation">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </div>
+        </div>
+        <article class="column is-half-desktop fullwidth">
+          <div class="carousel fullwidth carousel-animated carousel-animate-slide" data-autoplay="true" data-delay="4000">
+          <div class="carousel-container fullwidth">
+            <div class="carousel-content carousel-animate carousel-num-1 fullwidth">
+              
+              {% for review in site.testimonials %}
+              <div class="carousel-item" style="background:url(https://www.northernhonda.com/wp-content/uploads/sites/109/2016/09/quotation-marks-left-300x241.png) no-repeat;">
+                  <div class="content has-text-white">
+                    <p class="is-size-6 carousel-cont">{{review.content}}</p>
+                    <p class="has-text-centered is-size-7">{{review.author}} | {{review.title}}</p>
+                  </div> <!-- End Content -->
+              </div> <!-- End Carousel-Item -->
+              {% endfor %}
+
+            </div><!-- End Carousel-Content -->    
+          </div><!-- End Carousel container -->
+          </div><!-- End Carousel -->
+        </article>
+        <div class="column is-1 carousel-nav- is-size-2  desktop has-text-white is-narrow-mobile">
+          <div class="carousel-navigation">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div> 
+        </div>
+      </div>
+      <div class="columns is-mobile">
+        <div class="column mobile"></div>
+        <div class="column is-narrow mobile is-size-3 has-text-white">
+          <div class="carousel-navigation carousel-navigation-left">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="column is-narrow mobile is-size-3 has-text-white">
+          <div class="carousel-navigation carousel-navigation-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div> 
+        </div>
+        <div class="column mobile"></div>
+      </div>
+      </div>
+    </section>
+
+  <!--   Footer   -->
+  
+  {% include footer.html %}
+
+  <!-- Scripts -->
+  {% include scripts.html %}
+  
+</body>
+</html>

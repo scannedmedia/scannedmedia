@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <!--  Mobile Navigation  -->
+    {% include mobilenav.html %}
+
+    <!--  Navigation  -->
+    {% include header.html %}
+    <div class="hero container section is-paddingless" id="works">
+      <div class="columns is-multiline is-marginless is-paddingless">
+        {% for item in page.columns %}
+          {% if item.is-catagory %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless works">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
+              <div class="column-content {{item.title}}">
+                <div>
+                  <p class="title is-underlined big-numbers is-marginless">{{item.title}}</p>
+                  <h3 class="has-font-weight-light is-size-1 is-marginless">{{item.subtitle}}</h3>
+                  <h4 class="subtitle is-capitalized is-size-3 is-marginless">{{item.para}}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% else %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless works">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
+              <div class="column-content">
+                {% if item.is-body %}
+                <div class="has-text-centered is-size-7 column-body-content">
+                  <div>
+                    <h1 class="has-text-weight-bold is-size-2">{{page.title}}</h1>
+                    <h2 class="has-text-weight-medium is-size-5">{{page.subtitle}}</h2>
+                    {{content}}
+                  </div>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      
+      <!--
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-12" style="background: url({{page.columns.head-image.image}}) center / cover; width:100%; height:500px;">
+          <div class="tile is-child">
+            <h1>{{content}}</h1>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-12 has-background-primary" style="justify-content:center; align-items:center;">
+          <div class="tile is-child has-text-centered is-6 " style="padding-bottom:150px; padding-top:50px;">
+            <h1 class="title">{{page.title}}</h1>
+            <h2 class="subtitle is-uppercase">{{page.subtitle}}</h2>
+            <p class="">{{content}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-danger">
+          <div class="tile is-child">
+            <p class="title is-underlined" style="font-weight:900; font-size:20rem; text-decoration:underline;">{{page.section[0].catagory}}</p>
+            <h3 class="has-font-weight-light is-size-1">LOGO</h3>
+            <h4 class="subtitle is-capitalized is-size-3"> be the impact</h4>
+          </div>
+        </div>
+        <div class="tile is-parent has-background-warning">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-visited">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+        <div class="tile is-parent has-background-link">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-grey">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-warning">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+        <div class="tile is-parent has-background-danger">
+          <div class="tile is-child">
+            <p class="title is-underlined" style="font-weight:900; font-size:20rem; text-decoration:underline;">02</p>
+            <h3 class="has-font-weight-light is-size-1">FONT</h3>
+            <h4 class="subtitle is-capitalized is-size-3"> logo and collateral</h4>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-visited">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+        <div class="tile is-parent has-background-link">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-danger">
+          <div class="tile is-child">
+            <p class="title is-underlined" style="font-weight:900; font-size:20rem; text-decoration:underline;">03</p>
+            <h3 class="has-font-weight-light is-size-1">Collateral</h3>
+            <h4 class="subtitle is-capitalized is-size-3"> additional material</h4>
+          </div>
+        </div>
+        <div class="tile is-parent has-background-grey">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent has-background-grey-dark">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+        <div class="tile is-parent has-background-warning">
+          <div class="tile is-child">
+            <p class="title">logo variant</p>
+          </div>
+        </div>
+      </div>
+    
+    <!-- -->  
+    </div>
+    <!--   Footer   -->
+    
+    {% include footer.html %}
+
+    <!-- Scripts -->
+    {% include scripts.html %}
+  </body>
+</html>

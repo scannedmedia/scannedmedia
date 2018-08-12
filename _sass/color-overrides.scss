@@ -1,0 +1,43 @@
+$lightTeal: #47BEAA;
+$darkTeal: #26A089;
+$magenta: #EC008C;
+$darkGrey: #414042;
+$mediumGrey: #717375;
+$lightGrey: #A3A3A3;
+
+.has-text-lightTeal {
+  color:$lightTeal;
+}
+.has-background-lightteal {
+  background-color: $lightTeal;
+}
+.has-text-teal {
+  color:$darkTeal;
+}
+.has-background-teal {
+  background-color: $darkTeal;
+}
+.has-text-magenta {
+  color:$magenta;
+}
+.has-background-magenta {
+  background-color: $magenta;
+}
+.has-text-lightgrey {
+  color:$lightGrey;
+}
+.has-background-lightgrey {
+  background-color: $lightGrey;
+}
+.has-text-mediumgrey {
+  color:$mediumGrey;
+}
+.has-background-mediumgrey {
+  background-color: $mediumGrey;
+}
+.has-text-darkgrey {
+  color:$darkGrey;
+}
+.has-background-darkgrey {
+  background-color: $darkGrey;
+}

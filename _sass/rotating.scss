@@ -1,0 +1,116 @@
+$menu-items: 3;
+$rotation: 360deg / $menu-items;
+
+//@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.wrapper {
+  position: relative;
+  width: 50em;
+  height: 50em;
+  margin: 0 auto;
+  
+  // Uncomment these two to make a circular menu
+  overflow: hidden;
+  
+  // border: 0.1em solid #999;
+  border-radius: 50%;
+  
+  transition: transform 450ms;
+}
+
+.wrapper > li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  padding: 0;
+  cursor: pointer;
+  
+  text-align: center;
+  transform-origin: 100% 100%;
+  transition: padding 250ms, background 200ms;
+  
+  > span {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 85%;
+    padding:7px;
+    //font-size: 5em;
+    transition: font-size, 1s ease;
+    //color: black;
+    //font-weight: normal;
+  }
+}
+.in-active {
+  font-size: 36px;
+  font-weight: normal;
+}
+.active {
+  font-size: 144px;
+  font-weight: bold;
+}
+
+@for $i from 1 through $menu-items {
+  .wrapper > li:nth-child(#{$i}) {
+    transform: rotate(($i - 1)*$rotation);
+  }
+  .wrapper > li > span:nth-child(#{$i}+1){
+    transform: rotate(($i - 1)*$rotation);
+  }
+
+  .rotated-#{$i} {
+    transform: rotate(($i - 1)*$rotation*-1);
+  }
+}
+
+@media (max-width: 1440px) { // Tablet
+
+  .in-active {
+  font-size: 24px;
+  font-weight: normal;
+}
+.active {
+  font-size: 42px;
+  font-weight: bold;
+}
+  
+    .wrapper {
+  width: 30em;
+  height: 30em;
+}
+  
+  .wrapper > li {  
+  > span {
+    padding:3px;
+  }
+}
+
+}
+
+@media (max-width: 1024px) { // Tablet
+
+  .wrapper {
+  width: 20em;
+  height: 20em;
+}
+  
+  .wrapper > li {  
+  > span {
+    padding:0px;
+  }
+}
+  
+
+}
+@media (max-width:  768px) { // Mobile
+  .in-active {
+  font-size: 16px;
+  font-weight: normal;
+}
+.active {
+  font-size: 36px;
+  font-weight: bold;
+}
+}

@@ -1,0 +1,111 @@
+---
+title: scannedmedia
+timezone: America/Los_Angeles
+collections:
+  work:
+    title: Our Work
+    output: true
+    image: "/uploads/photo-1432888498266-38ffec3eaf0a.png"
+    heading: A bit about us, and our clients.
+  posts:
+    title: Posts
+    output: true
+    heading: Have you read our latest blog posts?
+  services:
+    title: Services
+    output: true
+    heading: Our Services
+  testimonials:
+    title: Testimonials
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+    author: John Doe
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: works
+    subtitle: branding + identity
+    head-image: 
+    columns:
+    - column-size: is-12
+      image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+    - column-size: is-12
+      image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+      is-body: true
+    - column-size: is-6
+      title: '01'
+      subtitle: logo
+      para: Be The Impact
+      is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image: 
+    - column-size: is-12
+      image: 
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      title: '02'
+      subtitle: font
+      para: Supporting Type
+      is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image: 
+    - column-size: is-12
+      title: '03'
+      subtitle: collateral
+      para: Additional Material
+      is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image: 
+- scope:
+    path: ''
+    type: services
+  values:
+    title: Apps
+    button: learn more
+    image: 
+- scope:
+    path: ''
+    type: testimonials
+  values:
+    author: John Doe
+permalink: pretty
+url: https://www.scannedmediasite.siteleaf.net
+menu:
+- title: apps
+  url: "/apps/"
+- title: branding
+  url: "/branding/"
+- title: web
+  url: "/web/"
+- title: work
+  url: "/work/"
+- title: blog
+  url: "/blog/"
+contact-us:
+  title: hire us
+  url: "/contact-us/"
+sass:
+  sass_dir: _sass
+logo: "/uploads/SM-logo-horizontal-color.svg"

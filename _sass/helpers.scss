@@ -1,0 +1,38 @@
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+
+.cover {
+	background: black url(/img/Optimized-Working-0.png) center / cover;
+}
+
+.is-paddingless-horizontal {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.has-padding-bottom {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.is-paddingless-bottom {
+  padding-bottom: 0px;
+}
+.has-shadow-white {
+  text-shadow: 2px 2px 2px rgba(140,140,140,.7);
+}

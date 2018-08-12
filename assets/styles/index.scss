@@ -1,0 +1,307 @@
+---
+---
+
+//@import 'bulma-carousel.css';
+//@import 'bulma-carousel';
+@import 'helpers';
+//@import 'rotating.css';
+@import 'color-overrides';
+@import 'bulma-quickview';
+//@import 'bulma';
+
+#bganimation {
+  position:absolute;
+  z-index:-1;
+  width: 100%;
+  height:100%;
+}
+body {
+  overflow: hidden;
+}
+
+.quickview-body {
+  padding:15px;
+}
+
+.columns {
+  width:100%;
+}
+.quick-logo {
+  width:85% !important;
+  margin:15px;
+}
+#services .hero-body {
+  padding-top:0px;
+  padding-bottom: 0px;
+  margin-right:0px;
+}
+.appCont, .brandCont, .webCont, .carousel-cont {
+  font-weight:600;
+}
+
+.carousel {
+  padding:30px;
+}
+.testimonials .carousel-content {
+  width: 100%;
+}
+// stifyconise sits slightly larger than a mobile screen
+
+.testimonials .columns article {
+  margin-bottom: 0px;
+  padding:0;
+}
+
+#work .work-child {
+  height: 400px;
+}
+
+#work .work-item {
+  height: 100%;
+}
+#work a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100,100,100,0);
+  color: rgba(255,255,255,0);
+  transition: background-color 1s ease;
+  transition: color 1s ease;
+  padding:25px;
+}
+#work a:hover {
+  background-color: rgba(100,100,100,.7);
+  color: rgba(255,255,255,1);
+}
+#work .column{
+  flex:none;
+  width:33.33%;
+  padding: 0px;
+}
+#work .column:nth-child(1),#work .column:nth-child(2){
+  flex:none;
+  width:50%;
+}
+
+.column-size-is-6, .column-size-is-12 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.column-size-is-6:after {
+  content: " ";
+  display: block;
+  padding-bottom: 100%;
+}
+.column-size-is-12:after {
+  content: " ";
+  display: block;
+  padding-bottom: 50%;
+}
+.column-size-is-6-double, .column-size-is-12-double {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.column-size-is-12-double:after {
+  content: " ";
+  display: block;
+  padding-bottom: 200%;
+}
+.column-size-is-6-double:after {
+  content: " ";
+  display: block;
+  padding-bottom: 200%;
+}
+.column-content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-body-content {
+  width: 100%;
+  height: 100%;
+  padding: 15%;
+  text-shadow: 2px 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-numbers {
+  font-weight:900; 
+  font-size:20rem; 
+  text-decoration:underline;
+}
+
+#apps {
+
+}
+
+#apps .conlumn-content {
+  flex-direction:column;
+}
+
+.i-img {
+  width:30px;
+}
+
+#posts {
+  padding-top:45px;
+  padding-bottom:65px;
+}
+
+.posts .column:nth-child(1) {
+  flex:none;
+  width:100%;
+}
+.posts .column:nth-child(2) {
+  flex:none;
+  width:100%;
+}
+.posts .column:nth-child(3), .posts .column:nth-child(4), .posts .column:nth-child(5) {
+  flex: none;
+  width: 33.33333%;
+}
+
+.featured-content {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.featured-content div {
+  position:absolute;
+  bottom: 0px;
+  width:100%;
+}
+.blog-images {
+  //background-size: 100% auto;
+  //background-repeat: no-repeat;
+ // background-attachment: fixed;
+  // accidental parralax effect. Neat.
+  // background-attachment: fixed;
+  background-position: center;
+}
+.blog-posts {
+  padding:25px;
+  background: rgba(255,255,255,.7);
+}
+.blog-head-img {
+  background-size: 100% auto;
+}
+.grid {
+	display: grid;
+	grid-template-columns:
+		[xl-start] 1fr 1.5rem [md-start] minmax(0, 800px) [md-end] 1.5rem 1fr [xl-end];
+}
+
+.grid *  { grid-column: md; }
+.grid-xl { grid-column: xl; }
+
+.box {
+  margin: 25px;
+}
+
+.footer {
+  padding: 15px;
+}
+
+.bottomfoot {
+  padding: 15px
+}
+.title {
+  margin-top: 50px;
+}
+
+.carousel-nav- {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .input {
+  margin:10px;
+}
+.mobile {
+  display:none;
+}
+
+.tile {
+  border-radius:0px;
+}
+
+@media (max-width: 1024px) { // Tablet
+  .desktop {
+		display: none;
+	}
+  .mobile {
+  display:block;
+  }
+  .cover {
+	background: black url('assets/img/Optimized-Working-2.png') center / cover;
+  }
+  .fullwidth{
+    width:100%;
+  }
+  .testimonials .box {
+    margin: .25rem;
+  }
+  .posts .column:nth-child(1), .posts .column:nth-child(2), .posts .column:nth-child(3), .posts .column:nth-child(4), .posts .column:nth-child(5) {
+  flex:none;
+  width:100%;
+  }
+  .big-numbers {
+    font-size:15rem; 
+  }
+}
+@media (max-width:  768px) { // Mobile
+  .tablet {
+		display: none;
+	}
+  .contact-left{
+    padding-bottom:0px;
+  }
+  .contact-right{
+    padding-top:0px;
+  }
+  .cover {
+	  background: black url('assets/img/Optimized-Working-3.png') center / cover;
+  }
+  .carousel {
+  padding:15px;
+  }
+  .blog-head-img {
+  background-size: auto 100%;
+  }
+  #work a {
+    background-color: rgba(100,100,100,.7);
+    color: rgba(255,255,255,1);
+  }
+  #work .column{
+    flex:none;
+    width:100%;
+  }
+  .column-body-content {
+    padding:5%;
+    background-color: rgba(255,255,255,.6);
+  }
+  #work .column:nth-child(1),#work .column:nth-child(2){
+    flex:none;
+    width:100%;
+  }
+  .column-size-is-12:after {
+    padding-bottom: 100%;
+  }
+  .big-numbers {
+    font-size:10rem; 
+  }
+  .i-img {
+    width:20px;
+  }
+}

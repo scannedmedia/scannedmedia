@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <!--  Mobile Navigation  -->
+    {% include mobilenav.html %}
+
+    <!--  Navigation  -->
+    {% include header.html %}
+    <div class="hero section is-paddingless" id="apps">
+      <div class="columns is-multiline is-marginless is-paddingless">
+        {% for item in page.columns %}
+          {% if item.is-app-head %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless apps">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
+              <div class="column-content columns">
+                <div class="column is-5 has-text-white">
+                  <figure class="image" style="margin:0 auto; width:70%;"><img src="{{item.phone-image}}" alt="{{item.title}}"></figure>
+                  <h1 class="title is-marginless is-size-5-mobile has-text-white has-text-centered">{{item.title}}</h1>
+                  <div class="columns is-paddingless is-multiline is-mobile is-size-7-mobile">
+                    {% for feature in item.features %}
+                    <div class="column is-6 is-paddingless">
+                      <div class="columns is-mobile">
+                        <div class="column has-text-centered has-text-weight-bold"><p> <i class="fas fa-{{feature.icon}}"></i> {{feature.title}}</p></div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>     
+                </div>
+              </div>
+            </div>
+          </div>
+          {% elsif item.is-app-compare %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless apps">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
+              <div class="column-content">
+                <div class="columns is-mobile content container" style="justify-content: right;">
+                  <div class="column is-6 has-text-right">
+                  {% for col in item.left %}
+                    {% if col.is-compare %}
+                    {% for comp in col.compare %}
+                      <div class="columns is-mobile">
+                        <div class="column is-mobile is-paddingless">
+                          <h5 class="is-size-6 is-size-7-mobile is-marginless">{{comp.title}}</h5>
+                        </div>
+                        <div class="column is-narrow is-paddingless-bottom">
+                          <img class="i-img" src="{{comp.icon-image}}" alt="{{comp.title}}">
+                        </div>
+                      </div>
+                    {% endfor %}
+                    {% else %}
+                    <{{col.element}} class="is-size-7-mobile"> {{col.title}} </{{col.element}}>
+                    {% endif %}
+                  {% endfor %}
+                  </div>
+                  <div class="column is-6">
+                      {% for col in item.right %}
+                        {% if col.is-compare %}
+                        {% for comp in col.compare %}
+                          <div class="columns is-mobile">
+                            <div class="column is-narrow is-paddingless-bottom">
+                                <img class="i-img" src="{{comp.icon-image}}" alt="{{comp.title}}">
+                            </div>
+                            <div class="column is-paddingless">
+                              <h5 class="is-size-6 is-size-7-mobile is-marginless">{{comp.title}}</h5>
+                            </div>
+                          </div>
+                        {% endfor %}
+                        {% else %}
+                        <{{col.element}} class="is-size-7-mobile"> {{col.title}} </{{col.element}}>
+                        {% endif %}
+                      {% endfor %}
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% else %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless apps">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
+              <div class="column-content">
+                {% if item.is-body %}
+                <div class="has-text-centered is-size-7 column-body-content">
+                  <div>
+                    <h1 class="has-text-weight-bold is-size-2">{{page.title}}</h1>
+                    <h2 class="has-text-weight-medium is-size-5">{{page.subtitle}}</h2>
+                    {{content}}
+                  </div>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+       
+    </div>
+    <!--   Footer   -->
+    
+    {% include footer.html %}
+
+    <!-- Scripts -->
+    {% include scripts.html %}
+  </body>
+</html>

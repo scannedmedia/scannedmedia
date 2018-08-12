@@ -1,0 +1,100 @@
+.ac-container{
+	width: 80%;
+	margin: 10px auto 30px auto;
+}
+
+.ac-container label{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	cursor: pointer;
+	color: #777;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	line-height: 33px;
+	font-size: 19px;
+}
+
+.ac-container label:hover{
+	background:rgba(255,255,255,.0);
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: #47BEAA;
+	color: #fff;
+	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		0px 2px 2px rgba(0,0,0,0.1);
+  	font-weight:900;
+}
+
+/* add :hover before each :after to set arrows on hover rather than always dispalyed. */
+
+.ac-container label:after,
+.ac-container input:checked + label:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	bottom: 9px;
+	background: transparent url(https://tympanus.net/Tutorials/CSS3Accordion/images/arrow_down.png) no-repeat center center;	
+}
+
+.ac-container input:checked + label:after{
+	background-image: url(https://tympanus.net/Tutorials/CSS3Accordion/images/arrow_up.png);
+}
+
+.ac-container input{
+	display: none;
+}
+
+.ac-container article{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	transition: 
+		height 0.3s ease-in-out, 
+		box-shadow 0.6s linear;
+}
+.ac-container input:checked ~ article{
+	transition: 
+		height 0.5s ease-in-out, 
+		box-shadow 0.1s linear;
+	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+
+.ac-container article div{
+	padding: 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  height:100%;
+}
+.ac-container article p{
+	font-style: italic;
+	color: #777;
+	line-height: 23px;
+	font-size: 14px;
+  	padding-bottom: 5px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+
+/* Using these set heights enables the animation to work. I set up flexbox to justify the content to help balance the extra space. using height auto works for different sizes, but not with height, as it isn't calculating a height to animate to. */
+
+.ac-container input:checked ~ article.ac-small{
+	height: 140px;
+}
+.ac-container input:checked ~ article.ac-medium{
+	height: 180px;
+}
+.ac-container input:checked ~ article.ac-large{
+	height: 230px;
+}
