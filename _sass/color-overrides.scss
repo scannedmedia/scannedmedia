@@ -41,3 +41,7 @@ $lightGrey: #A3A3A3;
 .has-background-darkgrey {
   background-color: $darkGrey;
 }
+
+.navbar-item img {
+  max-height: 5rem;
+}

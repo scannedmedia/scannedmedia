@@ -46,6 +46,8 @@
 
 .has-background-darkgrey { background-color: #414042; }
 
+.navbar-item img { max-height: 5rem; }
+
 @-webkit-keyframes spinAround { from { -webkit-transform: rotate(0); transform: rotate(0); }
   to { -webkit-transform: rotate(359deg); transform: rotate(359deg); } }
 @keyframes spinAround { from { -webkit-transform: rotate(0); transform: rotate(0); }
@@ -123,6 +125,16 @@
 #bganimation { position: absolute; z-index: -1; width: 100%; height: 100%; }
 
 body { overflow: hidden; }
+
+.heading-sect { padding: 5vw 0px 0px 5vw; margin-top: 15%; }
+
+.p-pos { margin: 3vw 5vw 0px 0vw; font-size: 14px; }
+
+.full-width-des { font-size: 5.7vw; color: #26A089; }
+
+.full-width-for { font-size: 5.1vw; color: #EC008C; }
+
+.full-width-bus { font-size: 4.6vw; color: #47BEAA; }
 
 .quickview-body { padding: 15px; }
 

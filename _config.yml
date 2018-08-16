@@ -93,18 +93,11 @@ defaults:
 permalink: pretty
 url: https://www.scannedmediasite.siteleaf.net
 menu:
-- title: apps
-  url: "/apps/"
-- title: branding
-  url: "/branding/"
-- title: web
-  url: "/web/"
 - title: work
   url: "/work/"
 - title: blog
   url: "/blog/"
-contact-us:
-  title: hire us
+- title: hire us
   url: "/contact-us/"
 sass:
   sass_dir: _sass

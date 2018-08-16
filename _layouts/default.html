@@ -11,19 +11,41 @@
   <!--  Navigation  -->
   {% include header.html %}
 
-  <section class="hero cover is-fullheight">
 
-    <!-- .hero-head -->
+  <!-- Cover
+  images are sources randomly from unsplash collection
+  https://unsplash.com/collections/1943687/small-business  
+  -->
+  <div class="columns is-marginless" style="width:100vw; height:100vh; background-image: url(https://source.unsplash.com/collection/1943687/1920x1080); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+      <div class="column is-6 "></div>
+      <div class="column is-4 has-background-white heading-sect">
+        <div class="is-uppercase has-text-weight-bold is-marginless is-paddingless" style="line-height:3.3vw;">
+          <span class="full-width-des">designed</span><br>
+          <span class="full-width-for">for small</span><br>
+          <span class="full-width-bus">businesses</span>
+        </div>
+        <div class="has-text-justified" style="">
+          
+         <p class="p-pos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis temporibus unde reiciendis neque eos consequuntur inventore rerum alias. Ex debitis tempora nostrum. Doloremque aspernatur numquam delectus placeat ipsum quia eius.</p>
+          
+        </div>
+      </div>
+      <div class="column is-2"></div>
+    </div>
+
+  <!-- <section class="hero is-fullheight" style="background-image: url(https://source.unsplash.com/collection/1943687/1920x1080); background-position: center; background-repeat: no-repeat; background-size: cover;">
+
+    <!-- .hero-head --
     <div class="hero-head">
     
-    </div> <!-- /.hero-head -->
+    </div> <!-- /.hero-head --
     <header class="hero-body">
       <div class="has-text-centered" style="width:100%;">
-    <!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> -->
+    <!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> --
           <h1 class="title is-size-1 has-text-white">Scanned Media <br> <span class="is-size-3 is-uppercase">has the creative.</span></h1>
       </div>
-    </header>  <!-- /Hero Body   -->
-    </section>
+    </header>  <!-- /Hero Body   -
+    </section> -->
     
     <section class="section is-medium has-background-lightteal" id="about">
       <div class="container">
@@ -39,7 +61,8 @@
     </section>
     <!-- /.hero -->
     <section class="hero is-fullheight" id="services">
-      <canvas class="is-fullheight" id="bganimation" ></canvas>
+      <div class="hero-head"><h1 class="title has-text-centered is-size-1 is-uppercase">Our services</h1></div>
+      <!-- <canvas class="is-fullheight" id="bganimation" ></canvas> -->
     <!--   <div class="hero-head columns is-desktop">
         <div class="column "> 
           <div class="container">
@@ -105,7 +128,7 @@
             <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:500px;">
               <div class="featured-content" style="width:100%; height:100%;">
                 <div class="content blog-posts">
-                  <h4 class="">{{ post.catagory }}<span> | {{ post.date }}</span></h4>
+                  <h4 class="">{{ post.catagory }} | <time datetime="{{posts[0].date}}" >{{page.date | date: '%B %d, %Y' }}</time></h4>
                   <a href="{{post.url}}"><h2 class="">{{ post.title }}</h2></a>
                 </div>
               </div>

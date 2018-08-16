@@ -82,48 +82,90 @@
 </div>
 
   <!--  Navigation  -->
-  <div class="columns is-mobile is-marginless heading has-text-weight-bold has-background-white">
+  <!-- <div class="columns is-mobile is-marginless heading has-text-weight-bold has-background-white is-fullwidth">
   <div class="column left">
     <figure class="navbar-item image">
       <a href="/"><img src="/uploads/SM-logo-horizontal-color.svg"></a>
     </figure>
   </div>
-  <div class="column center desktop">
-    
-    <p class="navbar-item has-text-black"><a href="/apps/">apps</a></p>
-    
-    <p class="navbar-item has-text-black"><a href="/branding/">branding</a></p>
-    
-    <p class="navbar-item has-text-black"><a href="/web/">web</a></p>
-    
-    <p class="navbar-item has-text-black"><a href="/work/">work</a></p>
-    
-    <p class="navbar-item has-text-black"><a href="/blog/">blog</a></p>
-    
-  </div>
   <div class="column right">
+    
+    <p class="navbar-item has-text-black desktop"><a href="/work/">work</a></p>
+    
+    <p class="navbar-item has-text-black desktop"><a href="/blog/">blog</a></p>
+    
     <p class="navbar-item has-text-black desktop"><a href="/contact-us/">hire us</a></p>
+    
     <p class="navbar-item has-text-black desktop">LOGIN</p>
     <figure class="navbar-item image has-text-black center" data-show="quickview" data-target="quickviewDefault">
       <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
     </figure>
   </div>
-</div>
+
+  
+</div> -->
+
+<nav class="navbar container" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a href="/" class="navbar-item">
+        <img src="/uploads/SM-logo-horizontal-color.svg" alt="ScannedMedia logo" style="min-width: 12rem;">
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start"></div>
+        <div class="navbar-end is-uppercase is-size-6">
+            
+            <div class="navbar-item has-text-black"><a href="/work/">work</a></div>
+            
+            <div class="navbar-item has-text-black"><a href="/blog/">blog</a></div>
+            
+            <div class="navbar-item has-text-black"><a href="/contact-us/">hire us</a></div>
+            
+            <div class="navbar-item has-text-black">login</div>
+        </div>
+      </div>
+  </nav>
 
 
-  <section class="hero cover is-fullheight">
+  <!-- Cover
+  images are sources randomly from unsplash collection
+  https://unsplash.com/collections/1943687/small-business  
+  -->
+  <div class="columns is-marginless" style="width:100vw; height:100vh; background-image: url(https://source.unsplash.com/collection/1943687/1920x1080); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+      <div class="column is-6 "></div>
+      <div class="column is-4 has-background-white heading-sect">
+        <div class="is-uppercase has-text-weight-bold is-marginless is-paddingless" style="line-height:3.3vw;">
+          <span class="full-width-des">designed</span><br>
+          <span class="full-width-for">for small</span><br>
+          <span class="full-width-bus">businesses</span>
+        </div>
+        <div class="has-text-justified" style="">
+          
+         <p class="p-pos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis temporibus unde reiciendis neque eos consequuntur inventore rerum alias. Ex debitis tempora nostrum. Doloremque aspernatur numquam delectus placeat ipsum quia eius.</p>
+          
+        </div>
+      </div>
+      <div class="column is-2"></div>
+    </div>
 
-    <!-- .hero-head -->
+  <!-- <section class="hero is-fullheight" style="background-image: url(https://source.unsplash.com/collection/1943687/1920x1080); background-position: center; background-repeat: no-repeat; background-size: cover;">
+
+    <!-- .hero-head --
     <div class="hero-head">
     
-    </div> <!-- /.hero-head -->
+    </div> <!-- /.hero-head --
     <header class="hero-body">
       <div class="has-text-centered" style="width:100%;">
-    <!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> -->
+    <!-- 		<h2 class="subtitle is-4 has-text-weight-light has-text-white">Tesla</h2> --
           <h1 class="title is-size-1 has-text-white">Scanned Media <br> <span class="is-size-3 is-uppercase">has the creative.</span></h1>
       </div>
-    </header>  <!-- /Hero Body   -->
-    </section>
+    </header>  <!-- /Hero Body   -
+    </section> -->
     
     <section class="section is-medium has-background-lightteal" id="about">
       <div class="container">
@@ -139,7 +181,8 @@
     </section>
     <!-- /.hero -->
     <section class="hero is-fullheight" id="services">
-      <canvas class="is-fullheight" id="bganimation" ></canvas>
+      <div class="hero-head"><h1 class="title has-text-centered is-size-1 is-uppercase">Our services</h1></div>
+      <!-- <canvas class="is-fullheight" id="bganimation" ></canvas> -->
     <!--   <div class="hero-head columns is-desktop">
         <div class="column "> 
           <div class="container">
@@ -205,7 +248,7 @@
             <div class="blog-images" class="is-fullwidth" style="background-image: url(/uploads/photo-1508599589920-14cfa1c1fe4d.jpeg); width:100%; height:500px;">
               <div class="featured-content" style="width:100%; height:100%;">
                 <div class="content blog-posts">
-                  <h4 class="">Branding<span> | 2018-05-23 00:00:00 -0700</span></h4>
+                  <h4 class="">Branding | <time datetime="" >June 19, 2018</time></h4>
                   <a href="/posts/sample-post-1/"><h2 class="">Building A Brand</h2></a>
                 </div>
               </div>
