@@ -20,6 +20,9 @@ body {
 }
 
 // Cover Styles
+.header-line-height {
+  line-height: 3.3vw;
+}
 .heading-sect {
   padding: 5vw 0px 0px 5vw;
   margin-top: 15%;
@@ -325,5 +328,29 @@ body {
   }
   .i-img {
     width:20px;
+  }
+  // Cover Styles
+  .header-line-height {
+    line-height: 10vw;
+  }
+  .heading-sect {
+    padding: 5vw 0px 5px 5vw;
+    margin-top: 15%;
+  }
+  .p-pos {
+    margin:3vw 5vw 0px 0vw;
+    font-size: 14px;
+  }
+  .full-width-des {
+    font-size: 20vw;
+    color: #26A089;
+  }
+  .full-width-for {
+    font-size: 17.42vw;
+    color: #EC008C;
+  }
+  .full-width-bus {
+    font-size: 20vw;
+    color: #47BEAA;
   }
 }
