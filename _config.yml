@@ -2,9 +2,6 @@
 title: smedia
 timezone: UTC
 collections:
-  portfolio:
-    title: Portfolio
-    output: true
   posts:
     title: Posts
     output: true
@@ -13,6 +10,9 @@ collections:
     output: true
   uploads:
     title: Uploads
+    output: true
+  portfolio:
+    title: portfolio
     output: true
 defaults:
 - scope:
