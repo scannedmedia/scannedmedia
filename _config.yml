@@ -27,3 +27,11 @@ defaults:
   values:
     layout: page
 permalink: pretty
+menu:
+- url: work
+  title: "/work/"
+- title: blog
+  url: "/blog/"
+- title: hire us
+  url: "/contact-us/"
+logo: "/uploads/SM-logo-horizontal-color.svg"
