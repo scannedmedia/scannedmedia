@@ -126,6 +126,10 @@
 
 body { overflow: hidden; }
 
+.navbar-brand, .navbar-burger { min-height: 5rem; min-width: 5rem; }
+
+.mobile-title-overlay { background: white; }
+
 .header-line-height { line-height: 3.3vw; }
 
 .heading-sect { padding: 5vw 0px 0px 5vw; margin-top: 15%; }
@@ -212,6 +216,10 @@ body { overflow: hidden; }
 
 .grid-xl { grid-column: xl; }
 
+img + em { display: block; text-align: center; }
+
+p img { width: 100%; }
+
 .box { margin: 25px; }
 
 .footer { padding: 15px; }
@@ -234,8 +242,12 @@ body { overflow: hidden; }
   .fullwidth { width: 100%; }
   .testimonials .box { margin: .25rem; }
   .posts .column:nth-child(1), .posts .column:nth-child(2), .posts .column:nth-child(3), .posts .column:nth-child(4), .posts .column:nth-child(5) { flex: none; width: 100%; }
-  .big-numbers { font-size: 15rem; } }
-@media (max-width: 768px) { .tablet { display: none; }
+  .big-numbers { font-size: 15rem; }
+  .navbar-menu.is-active { display: block; height: 180px; }
+  .navbar-menu { display: block; height: 0; overflow: hidden; padding: 0px; transition: height .25s ease; } }
+@media (max-width: 768px) { .mobile-title-overlay { background: rgba(255, 255, 255, 0.7); height: 100%; }
+  .header-line-height { margin-top: 75px !important; }
+  .tablet { display: none; }
   .contact-left { padding-bottom: 0px; }
   .contact-right { padding-top: 0px; }
   .cover { background: black url("assets/img/Optimized-Working-3.png") center/cover; }
@@ -249,8 +261,9 @@ body { overflow: hidden; }
   .big-numbers { font-size: 10rem; }
   .i-img { width: 20px; }
   .header-line-height { line-height: 10vw; }
-  .heading-sect { padding: 5vw 0px 5px 5vw; margin-top: 15%; }
-  .p-pos { margin: 3vw 5vw 0px 0vw; font-size: 14px; }
+  .heading-sect { padding: 5vw 0px 5px 5vw; margin: 0px; }
+  .p-pos { margin: 3vw 5vw 0px 0vw; font-size: 24px; }
   .full-width-des { font-size: 20vw; color: #26A089; }
   .full-width-for { font-size: 17.42vw; color: #EC008C; }
   .full-width-bus { font-size: 20vw; color: #47BEAA; } }
+@media (max-width: 420px) { .p-pos { margin: 3vw 5vw 0px 0vw; font-size: 16px; } }

@@ -18,8 +18,14 @@
 body {
   overflow: hidden;
 }
-
+.navbar-brand, .navbar-burger {
+  min-height: 5rem;
+  min-width: 5rem;
+}
 // Cover Styles
+.mobile-title-overlay {
+  background: rgba(255,255,255,1)
+}
 .header-line-height {
   line-height: 3.3vw;
 }
@@ -166,10 +172,6 @@ body {
   text-decoration:underline;
 }
 
-#apps {
-
-}
-
 #apps .conlumn-content {
   flex-direction:column;
 }
@@ -230,6 +232,17 @@ body {
 .grid *  { grid-column: md; }
 .grid-xl { grid-column: xl; }
 
+// makes blog images full width
+// makes em tags following an image tag act as a caption
+img + em {
+  display: block;
+  text-align: center;
+}
+p img {
+  width: 100%;
+}
+
+
 .box {
   margin: 25px;
 }
@@ -264,7 +277,7 @@ body {
 @media (max-width: 1024px) { // Tablet
   .desktop {
 		display: none;
-	}
+  }
   .mobile {
   display:block;
   }
@@ -284,8 +297,33 @@ body {
   .big-numbers {
     font-size:15rem; 
   }
+
+  // Navbar Styles and Animation
+  .navbar-menu.is-active {
+    display: block;
+    height: 180px;
+  }
+  .navbar-menu {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding: 0px;
+    transition: height .25s ease;
+  }
+  // End Navbar
 }
 @media (max-width:  768px) { // Mobile
+   // Cover
+
+   .mobile-title-overlay {
+    background: rgba(255,255,255,.7);
+    height: 100%;
+  }
+  .header-line-height {
+    margin-top: 75px !important;
+  }
+
+  // End Cover
   .tablet {
 		display: none;
 	}
@@ -335,11 +373,11 @@ body {
   }
   .heading-sect {
     padding: 5vw 0px 5px 5vw;
-    margin-top: 15%;
+    margin: 0px;
   }
   .p-pos {
     margin:3vw 5vw 0px 0vw;
-    font-size: 14px;
+    font-size: 24px;
   }
   .full-width-des {
     font-size: 20vw;
@@ -352,5 +390,11 @@ body {
   .full-width-bus {
     font-size: 20vw;
     color: #47BEAA;
+  }
+}
+@media (max-width:  420px) { // mini mobile
+  .p-pos {
+    margin:3vw 5vw 0px 0vw;
+    font-size: 16px;
   }
 }

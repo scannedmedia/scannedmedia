@@ -12,6 +12,9 @@ catagory: Branding
 
 sdfsdfsdfsdfsdf
 
+![Mockup_3_transparent-495x400.png](/uploads/Mockup_3_transparent-495x400.png)
+*This is an Image Caption*
+
 ## asasdasdas
 
 asdasd**asd**asd *"Book Title"*
