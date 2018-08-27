@@ -29,8 +29,8 @@ defaults:
 permalink: pretty
 url: https://www.smedia.siteleaf.net
 menu:
-- url: work
-  title: "/work/"
+- title: work
+  url: "/work/"
 - title: blog
   url: "/blog/"
 - title: hire us
