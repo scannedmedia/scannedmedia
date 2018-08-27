@@ -1,6 +1,6 @@
 ---
 title: apps
-date: 2018-07-11 15:27:00 -07:00
+date: 2018-07-11 22:27:00 Z
 columns:
 - column-size: is-12
   is-app-head: true
@@ -20,8 +20,7 @@ columns:
   left-right-col-size: is-6
   left:
   - element: h1
-    title: A Native app will connect to your customers on Apple & Android
-      Stores.
+    title: A Native app will connect to your customers on Apple & Android Stores.
   - element: h4
     title: Native App
   - element: p

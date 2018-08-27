@@ -1,6 +1,6 @@
 ---
 title: Spokane Limousine
-date: 2018-06-24 16:58:00 -07:00
+date: 2018-06-24 23:58:00 Z
 author: Adam Wilkening
 ---
 

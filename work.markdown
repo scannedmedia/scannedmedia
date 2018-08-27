@@ -1,6 +1,6 @@
 ---
 title: Work
-date: 2018-05-18 18:55:00 -07:00
+date: 2018-05-19 01:55:00 Z
 position: 4
 layout: work
 ---

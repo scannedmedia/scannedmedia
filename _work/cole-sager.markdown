@@ -1,6 +1,6 @@
 ---
 title: Cole Sager
-date: 2018-06-16 15:35:00 -07:00
+date: 2018-06-16 22:35:00 Z
 categories:
 - branding
 - app
