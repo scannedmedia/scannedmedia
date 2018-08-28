@@ -9,14 +9,14 @@ collections:
   testimonials:
     title: Testimonials
     output: true
+  uploads:
+    title: Uploads
+    output: true
   work:
     title: work
     output: true
     image: "/uploads/photo-1432888498266-38ffec3eaf0a.png"
     heading: A bit about us, and our clients
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
@@ -73,7 +73,7 @@ defaults:
     - column-size: is-6
       image: 
     - column-size: is-6
-      image:
+      image: 
 - scope:
     path: ''
     type: testimonials
