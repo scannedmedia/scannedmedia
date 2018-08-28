@@ -5,7 +5,7 @@ subtitle: branding + identity
 head-image: "/uploads/coleSager-header.png"
 columns:
 - column-size: is-12
-  image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+  image: "/uploads/coleSager-header.png"
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
   is-body: true
