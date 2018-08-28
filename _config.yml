@@ -14,6 +14,8 @@ collections:
   work:
     title: work
     output: true
+    image: "/uploads/photo-1432888498266-38ffec3eaf0a.png"
+    heading: A bit about us, and our clients
 defaults:
 - scope:
     path: ''
