@@ -4,8 +4,9 @@ date: 2018-06-16 15:35:00 -07:00
 subtitle: branding + identity
 head-image: "/uploads/coleSager-header.png"
 columns:
-- column-size: is-12
+- column-size: is-header
   image: "/uploads/coleSager-header.png"
+  is-header: true
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
   is-body: true
