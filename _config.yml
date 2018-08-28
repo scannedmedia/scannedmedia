@@ -9,14 +9,14 @@ collections:
   testimonials:
     title: Testimonials
     output: true
-  uploads:
-    title: Uploads
-    output: true
   work:
     title: work
     output: true
     image: "/uploads/photo-1432888498266-38ffec3eaf0a.png"
     heading: A bit about us, and our clients
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''
@@ -24,11 +24,61 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    author: John Doe
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: works
+    subtitle: branding + identity
+    head-image: 
+    columns:
+    - column-size: is-12
+      image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+    - column-size: is-12
+      image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+      is-body: true
+    - column-size: is-6
+      title: '01'
+      subtitle: logo
+      para: Be The Impact
+      is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image: 
+    - column-size: is-12
+      image: 
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      title: '02'
+      subtitle: font
+      para: Supporting Type
+      is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image: 
+    - column-size: is-12
+      title: '03'
+      subtitle: collateral
+      para: Additional Material
+      is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image:
+- scope:
+    path: ''
+    type: testimonials
+  values:
+    author: John Doe
 permalink: pretty
 url: https://www.smedia.siteleaf.net
 menu:
