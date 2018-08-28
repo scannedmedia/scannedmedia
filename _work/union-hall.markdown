@@ -3,7 +3,8 @@ title: Union Hall
 date: 2018-06-24 18:12:00 -07:00
 head-image: "/uploads/union-hall-banner-min.jpg"
 columns:
-- image: "/uploads/union-hall-banner-min.jpg"
+- column-size: is-header
+  image: "/uploads/union-hall-banner-min.jpg"
 - para: Community Table-Based Establishment
 - subtitle: fonts
   para: 'Primary & Secondary Headline & Body Copy   '
