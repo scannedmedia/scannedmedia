@@ -38,7 +38,7 @@ defaults:
     subtitle: branding + identity
     head-image: 
     columns:
-    - column-size: is-12
+    - column-size: is-header
       image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
     - column-size: is-12
       image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
