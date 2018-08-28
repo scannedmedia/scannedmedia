@@ -1,6 +1,10 @@
 ---
 title: Cole Sager
 date: 2018-06-16 15:35:00 -07:00
+categories:
+- branding
+- app
+- website
 subtitle: branding + identity
 head-image: "/uploads/coleSager-header.png"
 columns:
@@ -41,10 +45,6 @@ columns:
   image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
 - column-size: is-6
   image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
-categories:
-- branding
-- app
-- website
 layout: works
 ---
 
