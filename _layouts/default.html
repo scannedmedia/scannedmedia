@@ -114,14 +114,14 @@
         </div>
         <article class="column is-half-desktop fullwidth" style="background:url(/uploads/testimonial-qleft.svg) no-repeat; background-size: 50% 50%; background-position: left top;">
           <div class="carousel fullwidth carousel-animated carousel-animate-slide" data-autoplay="true" data-delay="4000" style="background:url(/uploads/testimonial-qright.svg) no-repeat; background-size: 50% 50%; background-position: right bottom;">
-          <div class="carousel-container fullwidth is-size-3 has-text-weight-bold has-text-centered">
+          <div class="carousel-container fullwidth is-size-3 is-size-6-mobile has-text-weight-bold has-text-centered">
             <div class="carousel-content carousel-animate carousel-num-1 fullwidth">
               
               {% for review in site.testimonials %}
               <div class="carousel-item" >
                   <div class="has-text-white" >
                       {{review.content}}
-                    <p class="has-text-centered is-size-5 has-text-weight-light">{{review.author}} | {{review.title}}</p>
+                    <p class="has-text-centered is-size-5 is-size-7-mobile has-text-weight-light">{{review.author}} | {{review.title}}</p>
                   </div> <!-- End Content -->
               </div> <!-- End Carousel-Item -->
               {% endfor %}
