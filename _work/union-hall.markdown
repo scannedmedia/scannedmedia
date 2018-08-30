@@ -6,7 +6,7 @@ columns:
 - column-size: is-header
   image: "/uploads/union-hall-banner-min.jpg"
 - column-size: is-12
-  image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+  image: "/"
   is-body: true
   para: Community Table-Based Establishment
 - column-size: is-6
@@ -23,17 +23,27 @@ columns:
 - column-size: is-12
   image: 
 - column-size: is-12
+  title: '02'
+  subtitle: font
+  para: Supporting Type
+  is-catagory: true
   image: 
 - column-size: is-6
   image: 
 - column-size: is-6
+  image: 
   title: '02'
   subtitle: font
   para: Supporting Type
   is-catagory: true
 - column-size: is-6
+  title: '03'
+  subtitle: collateral
+  para: Additional Material
+  is-catagory: true
   image: 
 - column-size: is-12
+  image: 
   title: '03'
   subtitle: collateral
   para: Additional Material
