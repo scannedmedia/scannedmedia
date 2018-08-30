@@ -1,6 +1,7 @@
 ---
 title: 7 Reasons Why Your Business Needs a Mobile App
 date: 2018-08-30 14:14:00 -07:00
+image: "/uploads/photo-1489389944381-3471b5b30f04.jpeg"
 ---
 
 \
