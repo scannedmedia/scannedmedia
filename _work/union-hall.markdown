@@ -11,8 +11,8 @@ columns:
   para: Community Table-Based Establishment
 - column-size: is-6
   title: '01'
-  subtitle: fonts
-  para: 'Primary & Secondary Headline & Body Copy   '
+  subtitle: Logo
+  para: Community Table-Based Establishment
   is-catagory: true
 - column-size: is-6
   image: "/uploads/-logo-1.png"
@@ -26,36 +26,24 @@ columns:
   image: "/uploads/-logo-5.png"
 - column-size: is-12
   image: "/uploads/-logo-6.png"
-- column-size: is-12
-  title: '02'
-  subtitle: font
-  para: Supporting Type
-  is-catagory: true
-  image: 
 - column-size: is-6
   image: 
   title: '02'
-  subtitle: font
+  subtitle: Fonts
   para: Supporting Type
   is-catagory: true
 - column-size: is-6
   image: "/uploads/-type-3.png"
 - column-size: is-6
-  title: '03'
-  subtitle: collateral
-  para: Additional Material
-  is-catagory: true
-  image: 
-- column-size: is-6
   image: "/uploads/-type-1.png"
 - column-size: is-6
   image: "/uploads/-type-2.png"
-- column-size: is-12
-  image: 
+- column-size: is-6
   title: '03'
   subtitle: collateral
   para: Additional Material
   is-catagory: true
+  image: 
 - column-size: is-6
   image: 
 - column-size: is-6
