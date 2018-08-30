@@ -3,6 +3,7 @@ title: 7 Reasons Why Your Business Needs a Mobile App
 date: 2018-08-30 14:14:00 -07:00
 author: Amanda
 image: "/uploads/photo-1489389944381-3471b5b30f04.jpeg"
+catagory: Apps
 ---
 
 Today I’d like to talk about mobile apps in combination with business, and why you should consider building a mobile app for your own company. If you think that mobile apps are solely for big name brands like Walmart and Bank of America, you are wrong. More and more small and midsize businesses are following the mobile trend, understanding that an effective mobile strategy involves more than just a mobile-friendly website. In fact, these days you’ll notice that many small businesses you interact with in your everyday life have their own dedicated mobile app — be it the corner coffee shop or the beauty spa downtown. These companies are ahead of the game when it comes to taking their marketing to the next level. In case you are still not sure why anyone would want to build their own mobile platform, here are the top seven benefits of going down this path sooner rather than later.
