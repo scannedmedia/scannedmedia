@@ -19,9 +19,13 @@ columns:
 - column-size: is-6
   image: "/uploads/-logo-2.png"
 - column-size: is-12
-  image: "/uploads/Screen%20Shot%202018-08-28%20at%201.32.05%20PM.png"
+  image: "/uploads/-logo-3.png"
 - column-size: is-12
-  image: 
+  image: "/uploads/-logo-4.png"
+- column-size: is-12
+  image: "/uploads/-logo-5.png"
+- column-size: is-12
+  image: "/uploads/-logo-6.png"
 - column-size: is-12
   title: '02'
   subtitle: font
@@ -30,18 +34,22 @@ columns:
   image: 
 - column-size: is-6
   image: 
-- column-size: is-6
-  image: 
   title: '02'
   subtitle: font
   para: Supporting Type
   is-catagory: true
+- column-size: is-6
+  image: "/uploads/-type-3.png"
 - column-size: is-6
   title: '03'
   subtitle: collateral
   para: Additional Material
   is-catagory: true
   image: 
+- column-size: is-6
+  image: "/uploads/-type-1.png"
+- column-size: is-6
+  image: "/uploads/-type-2.png"
 - column-size: is-12
   image: 
   title: '03'
@@ -51,8 +59,6 @@ columns:
 - column-size: is-6
   image: 
 - column-size: is-6
-  image: 
-- column-size: 
   image: 
 categories:
 - branding
