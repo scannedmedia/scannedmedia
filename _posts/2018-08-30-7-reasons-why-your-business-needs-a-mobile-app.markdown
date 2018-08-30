@@ -4,12 +4,14 @@ date: 2018-08-30 14:14:00 -07:00
 image: "/uploads/photo-1489389944381-3471b5b30f04.jpeg"
 ---
 
-## 7 Reasons Why Your Business Needs a Mobile App
-
 Today I’d like to talk about mobile apps in combination with business, and why you should consider building a mobile app for your own company.
+
+
 If you think that mobile apps are solely for big name brands like Walmart and Bank of America, you are wrong. More and more small and midsize businesses are following the mobile trend, understanding that an effective mobile strategy involves more than just a mobile-friendly website.
 
 In fact, these days you’ll notice that many small businesses you interact with in your everyday life have their own dedicated mobile app — be it the corner coffee shop or the beauty spa downtown. These companies are ahead of the game when it comes to taking their marketing to the next level.
+
+
 In case you are still not sure why anyone would want to build their own mobile platform, here are the top seven benefits of going down this path sooner rather than later.
 
 ### 1. Be Visible to Customers at All Times
@@ -19,6 +21,8 @@ Statistics show that the average American spends more than two hours a day on hi
 ### 2. Create a Direct Marketing Channel
 
 Apps serve many functions: they can provide general info, prices, booking forms, search features, user accounts, messengers, news feeds, and much more.
+
+
 One of the biggest benefits of having a mobile app is that all the information you’d like to provide to your customers – including special sales and promotions – is right at their fingertips. Through push notifications you’re getting even closer to a direct interaction, and can easily remind customers about your products and services whenever it makes sense.
 
 ### 3. Provide Value to Your Customers
@@ -28,7 +32,11 @@ Talking about on-hand information, how about digitalizing that loyalty program y
 ### 4. Build Brand and Recognition
 
 A mobile app for your business can greatly contribute to your brand awareness. I’d like to break this topic down into two aspects, the combination of which will make your app a true winner:
+
+
 Brand. A mobile app is like a blank billboard sign. You can do what you want with it; you can make it stylish, hip, functional, shocking, or informative. But what you really want to do is create an app that has features your customers will love, while at the same time is well branded and beautifully designed.
+
+
 Recognition. The more often you can get customers involved with your app, the sooner they will be inclined to buy your product and/or service. In advertising this is called the “effective frequency”: as a rule of thumb, hearing and/or seeing your brand approximately 20 times is what will get you truly noticed.
 
 ### 5. Improve Customer Engagement
