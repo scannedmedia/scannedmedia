@@ -13,10 +13,7 @@ Statistics show that the average American spends more than two hours a day on hi
 
 ### 2. Create a Direct Marketing Channel
 
-Apps serve many functions: they can provide general info, prices, booking forms, search features, user accounts, messengers, news feeds, and much more.
-
-
-One of the biggest benefits of having a mobile app is that all the information you’d like to provide to your customers – including special sales and promotions – is right at their fingertips. Through push notifications you’re getting even closer to a direct interaction, and can easily remind customers about your products and services whenever it makes sense.
+Apps serve many functions: they can provide general info, prices, booking forms, search features, user accounts, messengers, news feeds, and much more. One of the biggest benefits of having a mobile app is that all the information you’d like to provide to your customers – including special sales and promotions – is right at their fingertips. Through push notifications you’re getting even closer to a direct interaction, and can easily remind customers about your products and services whenever it makes sense.
 
 ### 3. Provide Value to Your Customers
 
@@ -24,13 +21,7 @@ Talking about on-hand information, how about digitalizing that loyalty program y
 
 ### 4. Build Brand and Recognition
 
-A mobile app for your business can greatly contribute to your brand awareness. I’d like to break this topic down into two aspects, the combination of which will make your app a true winner:
-
-
-Brand. A mobile app is like a blank billboard sign. You can do what you want with it; you can make it stylish, hip, functional, shocking, or informative. But what you really want to do is create an app that has features your customers will love, while at the same time is well branded and beautifully designed.
-
-
-Recognition. The more often you can get customers involved with your app, the sooner they will be inclined to buy your product and/or service. In advertising this is called the “effective frequency”: as a rule of thumb, hearing and/or seeing your brand approximately 20 times is what will get you truly noticed.
+A mobile app for your business can greatly contribute to your brand awareness. I’d like to break this topic down into two aspects, the combination of which will make your app a true winner: Brand. A mobile app is like a blank billboard sign. You can do what you want with it; you can make it stylish, hip, functional, shocking, or informative. But what you really want to do is create an app that has features your customers will love, while at the same time is well branded and beautifully designed. Recognition. The more often you can get customers involved with your app, the sooner they will be inclined to buy your product and/or service. In advertising this is called the “effective frequency”: as a rule of thumb, hearing and/or seeing your brand approximately 20 times is what will get you truly noticed.
 
 ### 5. Improve Customer Engagement
 
