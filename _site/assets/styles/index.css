@@ -128,13 +128,15 @@ body { overflow: hidden; }
 
 .navbar-brand, .navbar-burger { min-height: 5rem; min-width: 5rem; }
 
-.mobile-title-overlay { background: white; }
+.mobile-title-overlay { background: rgba(255, 255, 255, 0.7); }
 
 .header-line-height { line-height: 3.3vw; }
 
 .heading-sect { padding: 5vw 0px 0px 5vw; margin-top: 15%; }
 
-.p-pos { margin: 3vw 5vw 0px 0vw; font-size: 14px; }
+.is-paddingless-hori { padding-left: 0px; padding-right: 0px; }
+
+.p-pos { margin: 3vw 5vw 0px 0vw; }
 
 .full-width-des { font-size: 5.7vw; color: #26A089; }
 
@@ -269,8 +271,8 @@ p img { width: 100%; }
   .i-img { width: 20px; }
   .header-line-height { line-height: 10vw; }
   .heading-sect { padding: 5vw 0px 5px 5vw; margin: 0px; }
-  .p-pos { margin: 3vw 5vw 0px 0vw; font-size: 24px; }
+  .p-pos { margin: 3vw 5vw 0px 0vw; }
   .full-width-des { font-size: 20vw; color: #26A089; }
   .full-width-for { font-size: 17.42vw; color: #EC008C; }
   .full-width-bus { font-size: 20vw; color: #47BEAA; } }
-@media (max-width: 420px) { .p-pos { margin: 3vw 5vw 0px 0vw; font-size: 16px; } }
+@media (max-width: 420px) { .p-pos { margin: 3vw 5vw 0px 0vw; } }

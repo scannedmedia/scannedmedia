@@ -24,88 +24,9 @@
   <link rel="stylesheet" href="/assets/styles/index.css">
 </head>
 <body>
-
-  <!--  Mobile Navigation  -->
-  <div id="quickviewDefault" class="quickview">
-  <header class="quickview-header">
-    <figure class="image center">
-      <img class="quick-logo" src="/uploads/SM-logo-horizontal-color.svg" alt="Scanned Media logo">
-    </figure>
-    <span class="delete" data-dismiss="quickview"></span>
-  </header>
-
-  <div class="quickview-body">
-    <div class="quickview-block">
-      <aside class="menu">
-        <p class="menu-label">
-          Site
-        </p>
-        <ul class="menu-list">
-          <li><a>About</a></li>
-          <li><a>Work</a></li>
-        </ul>
-        <p class="menu-label">
-          Blog
-        </p>
-        <ul class="menu-list">
-          <li><a class="is-active"></a></li>
-          <li><a></a></li>
-          <li><a></a></li>
-          <li><a></a></li>
-        </ul>
-        <p class="menu-label">
-          Member Login
-        </p>
-        <ul class="menu-list">
-          <li> <a>Login To Your App</a> </li>
-        </ul>
-      </aside>
-    </div>
-  </div>
-
-  <footer class="quickview-footer">
-    <div class="columns is-mobile has-text-centered">
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-    </div>
-  </footer>
-</div>
-
-  <!--  Navigation  -->
-  <!-- <div class="columns is-mobile is-marginless heading has-text-weight-bold has-background-white is-fullwidth">
-  <div class="column left">
-    <figure class="navbar-item image">
-      <a href="/"><img src="/uploads/SM-logo-horizontal-color.svg"></a>
-    </figure>
-  </div>
-  <div class="column right">
-    
-    <p class="navbar-item has-text-black desktop"><a href="/work/">work</a></p>
-    
-    <p class="navbar-item has-text-black desktop"><a href="/blog/">blog</a></p>
-    
-    <p class="navbar-item has-text-black desktop"><a href="/contact-us/">hire us</a></p>
-    
-    <p class="navbar-item has-text-black desktop">LOGIN</p>
-    <figure class="navbar-item image has-text-black center" data-show="quickview" data-target="quickviewDefault">
-      <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
-    </figure>
-  </div>
-
   
-</div> -->
-
-<nav class="navbar container" role="navigation" aria-label="main navigation">
+  <!--  Navigation  -->
+  <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="/" class="navbar-item">
         <img src="/uploads/SM-logo-horizontal-color.svg" alt="ScannedMedia logo" style="min-width: 12rem;">
@@ -131,7 +52,6 @@
       </div>
   </nav>
 
-
   <!-- Cover
   images are sources randomly from unsplash collection
   https://unsplash.com/collections/1943687/small-business  
@@ -144,7 +64,7 @@
           <span class="full-width-for">for small</span><br>
           <span class="full-width-bus">businesses</span>
         </div>
-        <div class="has-text-justified">
+        <div class="has-text-justified is-size-6 is-size-7-mobile">
           
          <p class="p-pos">From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effectiv eways to connect and interact with them.</p>
          <p class="p-pos">Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.</p>          
@@ -201,27 +121,45 @@
         </div>
       </div>
     </section>
-        
-    <section class="hero has-background-lightgrey" id="posts">
-      <div class="container is-widescreen center is-fullwidth" >
-        <div class="columns is-multiline posts">
-          <div class="column">
-            <h2 class="title is-size-2 has-text-centered is-uppercase">Have you read our latest blog posts?</h2>   
-          </div>
-         
-          <article class="column">
-            <div class="blog-images" class="is-fullwidth" style="background-image: url(/uploads/photo-1508599589920-14cfa1c1fe4d.jpeg); width:100%; height:500px;">
-              <div class="featured-content" style="width:100%; height:100%;">
-                <div class="content blog-posts">
-                  <h4 class="">Branding | <time datetime="" >June 19, 2018</time></h4>
-                  <a href="/posts/sample-post-1/"><h2 class="">Building A Brand</h2></a>
-                </div>
-              </div>
+
+    <section class="section is-paddingless-hori has-background-lightgrey" id="posts">
+    <div class="has-text-centered is-size-3 has-text-weight-bold">
+      <h3>Our Latest Blog Posts</h3>
+    </div>
+    <div class="container is-widescreen center is-fullwidth" style="width:100%;">
+  <div class="columns is-multiline posts">
+    
+<!--    use a conditional to iterate through an int -->  
+    <article class="column">
+      <a href="/posts/7-reasons-why-your-business-needs-a-mobile-app/">
+        <div class="blog-images" class="is-fullwidth" style="background-image: url(/uploads/photo-1489389944381-3471b5b30f04.jpeg); width:100%; height:300px;">
+          <div class="featured-content" style="width:100%; height:100%;">
+            <div class="blog-posts has-text-grey-dark">
+              <h4 class="is-size-6">Apps | <time datetime="" >June 19, 2018</time></h4>
+              <h2 class="has-text-weight-bold is-size-4">7 Reasons Why Your Business Needs a Mobile App</h2>
             </div>
-          </article>
-          
+          </div>
         </div>
-      </div>
+      </a>
+    </article>
+    
+<!--    use a conditional to iterate through an int -->  
+    <article class="column">
+      <a href="/posts/sample-post-1/">
+        <div class="blog-images" class="is-fullwidth" style="background-image: url(/uploads/photo-1508599589920-14cfa1c1fe4d.jpeg); width:100%; height:300px;">
+          <div class="featured-content" style="width:100%; height:100%;">
+            <div class="blog-posts has-text-grey-dark">
+              <h4 class="is-size-6">Branding | <time datetime="" >June 19, 2018</time></h4>
+              <h2 class="has-text-weight-bold is-size-4">Building A Brand</h2>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+  </div>
+</div>
+
     </section>
 
     <section class="section testimonials has-background-grey-dark">

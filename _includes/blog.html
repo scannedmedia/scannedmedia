@@ -1,0 +1,19 @@
+<div class="container is-widescreen center is-fullwidth" style="width:100%;">
+  <div class="columns is-multiline posts">
+    {% for post in site.posts %}
+<!--    use a conditional to iterate through an int -->  
+    <article class="column">
+      <a href="{{post.url}}">
+        <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:300px;">
+          <div class="featured-content" style="width:100%; height:100%;">
+            <div class="blog-posts has-text-grey-dark">
+              <h4 class="is-size-6">{{ post.catagory }} | <time datetime="{{posts[0].date}}" >{{page.date | date: '%B %d, %Y' }}</time></h4>
+              <h2 class="has-text-weight-bold is-size-4">{{ post.title }}</h2>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>

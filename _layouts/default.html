@@ -4,13 +4,9 @@
   {% include head.html %}
 </head>
 <body>
-
-  <!--  Mobile Navigation  -->
-  {% include mobilenav.html %}
-
+  
   <!--  Navigation  -->
   {% include header.html %}
-
 
   <!-- Cover
   images are sources randomly from unsplash collection
@@ -24,7 +20,7 @@
           <span class="full-width-for">for small</span><br>
           <span class="full-width-bus">businesses</span>
         </div>
-        <div class="has-text-justified">
+        <div class="has-text-justified is-size-6 is-size-7-mobile">
           
          <p class="p-pos">From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effectiv eways to connect and interact with them.</p>
          <p class="p-pos">Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.</p>          
@@ -81,27 +77,12 @@
         </div>
       </div>
     </section>
-        
-    <section class="hero has-background-lightgrey" id="posts">
-      <div class="container is-widescreen center is-fullwidth" >
-        <div class="columns is-multiline posts">
-          <div class="column">
-            <h2 class="title is-size-2 has-text-centered is-uppercase">Have you read our latest blog posts?</h2>   
-          </div>
-         {% for post in site.posts %}
-          <article class="column">
-            <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:500px;">
-              <div class="featured-content" style="width:100%; height:100%;">
-                <div class="content blog-posts">
-                  <h4 class="">{{ post.catagory }} | <time datetime="{{posts[0].date}}" >{{page.date | date: '%B %d, %Y' }}</time></h4>
-                  <a href="{{post.url}}"><h2 class="">{{ post.title }}</h2></a>
-                </div>
-              </div>
-            </div>
-          </article>
-          {% endfor %}
-        </div>
-      </div>
+
+    <section class="section is-paddingless-hori has-background-lightgrey" id="posts">
+    <div class="has-text-centered is-size-3 has-text-weight-bold">
+      <h3>Our Latest Blog Posts</h3>
+    </div>
+    {% include blog.html %}
     </section>
 
     <section class="section testimonials has-background-grey-dark">

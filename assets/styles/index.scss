@@ -24,7 +24,7 @@ body {
 }
 // Cover Styles
 .mobile-title-overlay {
-  background: rgba(255,255,255,1)
+  background: rgba(255,255,255,.7)
 }
 .header-line-height {
   line-height: 3.3vw;
@@ -33,9 +33,12 @@ body {
   padding: 5vw 0px 0px 5vw;
   margin-top: 15%;
 }
+.is-paddingless-hori {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .p-pos {
   margin:3vw 5vw 0px 0vw;
-  font-size: 14px;
 }
 .full-width-des {
   font-size: 5.7vw;
@@ -407,7 +410,6 @@ p img {
   }
   .p-pos {
     margin:3vw 5vw 0px 0vw;
-    font-size: 24px;
   }
   .full-width-des {
     font-size: 20vw;
@@ -425,6 +427,5 @@ p img {
 @media (max-width:  420px) { // mini mobile
   .p-pos {
     margin:3vw 5vw 0px 0vw;
-    font-size: 16px;
   }
 }

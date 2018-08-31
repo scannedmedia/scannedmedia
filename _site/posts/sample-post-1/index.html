@@ -25,87 +25,8 @@
   </head>
   <body>
 
-    <!--  Mobile Navigation  -->
-    <div id="quickviewDefault" class="quickview">
-  <header class="quickview-header">
-    <figure class="image center">
-      <img class="quick-logo" src="/uploads/SM-logo-horizontal-color.svg" alt="Scanned Media logo">
-    </figure>
-    <span class="delete" data-dismiss="quickview"></span>
-  </header>
-
-  <div class="quickview-body">
-    <div class="quickview-block">
-      <aside class="menu">
-        <p class="menu-label">
-          Site
-        </p>
-        <ul class="menu-list">
-          <li><a>About</a></li>
-          <li><a>Work</a></li>
-        </ul>
-        <p class="menu-label">
-          Blog
-        </p>
-        <ul class="menu-list">
-          <li><a class="is-active"></a></li>
-          <li><a></a></li>
-          <li><a></a></li>
-          <li><a></a></li>
-        </ul>
-        <p class="menu-label">
-          Member Login
-        </p>
-        <ul class="menu-list">
-          <li> <a>Login To Your App</a> </li>
-        </ul>
-      </aside>
-    </div>
-  </div>
-
-  <footer class="quickview-footer">
-    <div class="columns is-mobile has-text-centered">
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-      <div class="column">
-        <a href="">fa</a>
-      </div>
-    </div>
-  </footer>
-</div>
-
     <!--  Navigation  -->
-    <!-- <div class="columns is-mobile is-marginless heading has-text-weight-bold has-background-white is-fullwidth">
-  <div class="column left">
-    <figure class="navbar-item image">
-      <a href="/"><img src="/uploads/SM-logo-horizontal-color.svg"></a>
-    </figure>
-  </div>
-  <div class="column right">
-    
-    <p class="navbar-item has-text-black desktop"><a href="/work/">work</a></p>
-    
-    <p class="navbar-item has-text-black desktop"><a href="/blog/">blog</a></p>
-    
-    <p class="navbar-item has-text-black desktop"><a href="/contact-us/">hire us</a></p>
-    
-    <p class="navbar-item has-text-black desktop">LOGIN</p>
-    <figure class="navbar-item image has-text-black center" data-show="quickview" data-target="quickviewDefault">
-      <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
-    </figure>
-  </div>
-
-  
-</div> -->
-
-<nav class="navbar container" role="navigation" aria-label="main navigation">
+    <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="/" class="navbar-item">
         <img src="/uploads/SM-logo-horizontal-color.svg" alt="ScannedMedia logo" style="min-width: 12rem;">
@@ -131,18 +52,17 @@
       </div>
   </nav>
 
-    <section class="hero is-fullwidth blog-images blog-head-img" style="background-image:url(''); height:500px;">
-      <div class="featured-content" style="background-image:url(/uploads/photo-1508599589920-14cfa1c1fe4d.jpeg);"><div class="content grid has-text-white"><h1 class="is-size-1 is-bold has-text-white">Building A Brand</h1></div></div>
+    <section class="hero is-fullwidth blog-images blog-head-img" style="height:500px;">
+      <div class="featured-content" style="background-image:url(/uploads/photo-1508599589920-14cfa1c1fe4d.jpeg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <div class="box is-marginless is-radiusless is-paddingless-horizontal content grid has-text-white" style="background-color: rgba(255,255,255,.6);">
+          <h1 class="is-size-1 is-size-4-mobile is-marginless is-bold has-text-grey-dark">Building A Brand</h1>
+          <p class="is-size-7 is-capitalized has-text-grey-dark">Written by Jane Doe on <time datetime="" >May 23, 2018</time></p>
+        </div>
+      </div>
     </section>
 
     <section class="section grid is-paddingless-horizontal">
-      <div class="">
-        <div class="content">
-          <h3 class="is-size-6 is-uppercase">Branding</h3>
-          <p class="is-size-7 is-capitalized">Written by Jane Doe on <time datetime="" >May 23, 2018</time></p>
-        </div>
-      </div>
-      <article class="section content is-paddingless-horizontal" id="postContent">
+      <article class="content is-size-7-mobile is-paddingless-hori" id="postContent">
         <h1 id="title-of-blog-post">title of blog post</h1>
 
 <blockquote>
@@ -164,8 +84,7 @@
       </article>
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">Branding</a></li>
+          <li><a href="/blog">blog</a></li>
           <li class="is-active"><a href="#" aria-current="page">Building A Brand</a></li>
         </ul>
       </nav>
