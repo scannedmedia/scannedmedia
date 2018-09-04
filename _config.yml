@@ -89,3 +89,21 @@ menu:
 - title: hire us
   url: "/contact-us/"
 logo: "/uploads/SM-logo-horizontal-color.svg"
+Footer:
+- title: Address
+  p: Spokane, Wa 99204
+- title: Contact
+  p: info@scannedmedia.com
+- title: Services
+  p: Web
+- title: social
+  is-social: true
+  icon:
+  - Icon: facebook
+    url: 
+  - Icon: instagram
+    url: 
+  - Icon: linkedin
+    url: 
+  - Icon: google-plus-square
+    url: 
