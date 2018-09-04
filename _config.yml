@@ -91,22 +91,22 @@ menu:
 logo: "/uploads/SM-logo-horizontal-color.svg"
 Footer:
 - title: Address
-  Key:
+  items:
   - '400 S Jefferson St #408,'
   - Spokane, Wa 99204
 - title: Contact
-  item:
+  items:
   - M-F 8am to 5pm
   - 509.720.7833
   - info@scannedmedia.com
 - title: Services
-  item:
+  items:
   - Apps
   - Branding
   - Web
 - title: social
   is-social: true
-  icon:
+  icons:
   - Icon: facebook
     url: 
   - Icon: instagram
