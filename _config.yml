@@ -89,7 +89,7 @@ menu:
 - title: hire us
   url: "/contact-us/"
 logo: "/uploads/SM-logo-horizontal-color.svg"
-Footer:
+foot:
 - title: Address
   items:
   - '400 S Jefferson St #408,'
