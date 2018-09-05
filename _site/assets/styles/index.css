@@ -240,6 +240,12 @@ p img { width: 100%; }
 
 #contact .input { margin: 10px; }
 
+#contact .hero-body span { margin-left: 22px; display: block; background-color: rgba(255, 255, 255, 0.6); padding: 11px 0px; }
+
+#contact .footer span { padding: 4px; font-size: .75rem; background-color: #505050; border-radius: 100%; color: #717375; }
+
+#contact .footer span svg { margin-left: 2px; padding: 1px 0px; }
+
 .mobile { display: none; }
 
 .tile { border-radius: 0px; }

@@ -1,25 +1,26 @@
   <div class="footer has-text-darkgrey has-background-mediumgrey">
-    <div class="level has-text-centered">
+    <div class="level has-text-left has-text-centered-mobile">
+     {% for item in site.foot %} 
       <div class="level-item is-offset-2">
         <div>
-          <h5 class="subtitle has-text-weight-bold is-marginless">Address</h5>
-          <p>400 S Jefferson St #408,</p>
-          <p>Spokane, WA 99204</p>
-          
+          <h5 class="subtitle has-text-weight-bold is-marginless">item.title</h5>
+          {% for paragraph in item.items %}
+          <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      <!-- <div class="level-item">
+        <div >
+          <h5 class="subtitle has-text-weight-bold is-marginless">Contact</h5>
+          <p>M-F 9am to 5pm</p>
+          <p>509.720.7833</p>
+          <p>info@scannedmedia.com</p>
         </div>
       </div>
       <div class="level-item">
-          <div >
-            <h5 class="subtitle has-text-weight-bold is-marginless">Contact</h5>
-            <p>M-F 9am to 5pm</p>
-            <p>509.720.7833</p>
-            <p>info@scannedmedia.com</p>
-          </div>
-        </div>
-      <div class="level-item">
         <div>
           <h5 class="subtitle has-text-weight-bold is-marginless">Services</h5>
-          <!-- <p>Apps | Branding | Web</p> -->
           <p>Apps</p>
           <p>Branding</p>
           <p>Web</p>
@@ -35,7 +36,7 @@
             <a class="has-text-grey-dark" href="#"><i class="fab fa-google-plus-square"></i></a>
             </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="bottomfoot full-width has-text-centered has-text-lightgrey has-background-darkgrey">
