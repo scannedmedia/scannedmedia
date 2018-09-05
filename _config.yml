@@ -107,11 +107,11 @@ foot:
 - title: social
   is-social: true
   icons:
-  - Icon: facebook
+  - icon: facebook
     url: 
-  - Icon: instagram
+  - icon: instagram
     url: 
-  - Icon: linkedin
+  - icon: linkedin
     url: 
-  - Icon: google-plus-square
+  - icon: google-plus-square
     url: 
