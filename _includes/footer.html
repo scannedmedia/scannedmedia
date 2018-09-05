@@ -5,25 +5,25 @@
         <span><h3 class="has-text-weight-bold is-size-2-desktop is-size-2-tablet is-size-3-mobile has-text-centered">Ready to get started?</h3></span>
         <form class="columns is-multiline" method="POST" action="https://formspree.io/jeremy@scannedmedia.com">
           <div class="column is-half contact-left">
-            <div class="control">
-              <input class="input" type="fname" name="fname" placeholder="{{page.placeholder.name}}">
-            </div>
-            <input class="input" type="phone" name="phone" placeholder="{{page.placeholder.phone}}">
-            <input class="input" type="email" name="email" placeholder="{{page.placeholder.email}}">
-            <input class="input" type="companyname" name="companyname" placeholder="{{page.Placeholder.org}}">
+            <input class="input" type="fname" name="fname" placeholder="{{site.contact.name}}" required>
+            <input class="input" type="phone" name="phone" placeholder="{{site.contact.phone}}" required>
+            <input class="input" type="email" name="email" placeholder="{{site.contact.email}}" required>
+            <input class="input" type="companyname" name="companyname" placeholder="{{site.contact.org}}" required>
           </div>
 
           <div class="column is-half contact-right">
-            <input class="input" type="website" name="website" placeholder="{{page.placeholder.name}}">
+            <input class="input" type="website" name="website" placeholder="{{site.contact.name}}" required>
             <div class="control">
               <div class="select is-fullwidth">
-                <select>
-                  <option>Select dropdown</option>
-                  <option>With options</option>
+                <select required>
+                  <option value=" " disabled selected hidden>Services</option>
+                  {% for option in site.contact.services%}
+                  <option value="{{forloop.index}}">{{option}}</option>
+                  {% endfor %}
                 </select>
               </div>
             </div>
-            <textarea class="input" name="message" placeholder="{{page.placeholder.name}}" style="height:92px;"></textarea>
+            <textarea class="input" name="message" placeholder="{{site.contact.name}}" style="height:92px;"></textarea>
             <button class="button is-link is-fullwidth" type="submit" style="margin:10px;">Send</button>
           </div>
         </form>

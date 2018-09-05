@@ -242,6 +242,12 @@ p img { width: 100%; }
 
 #contact .select { margin: 10px; }
 
+select { color: grey; }
+
+select:invalid { color: lightgrey !important; }
+
+select:valid { color: black; }
+
 #contact .hero-body span { margin-left: 22px; display: block; background-color: rgba(255, 255, 255, 0.6); padding: 11px 0px; }
 
 #contact .footer span { padding: 4px; font-size: .75rem; background-color: #505050; border-radius: 100%; color: #717375; }
