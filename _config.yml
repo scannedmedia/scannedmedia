@@ -115,3 +115,15 @@ foot:
     url: 
   - icon: google-plus-square
     url: 
+contact:
+  name: First and Last Name
+  phone: Phone Number
+  email: Email
+  org: Company/Organization
+  website: Website / Optional
+  services:
+  - Apps
+  - Branding
+  - Web
+  - Other
+  message: Message

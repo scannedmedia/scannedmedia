@@ -6,8 +6,8 @@
           <h5 class="subtitle has-text-weight-bold is-marginless">{{item.title}}</h5>
           {% if item.is-social %}
             <p class="has-text-dark-grey is-size-5">
-              {% for icons in item.icons %}
-                <a class="has-text-grey-dark" href="{{icons.url}}"><i class="fab fa-{{icons.icon}}"></i></a>
+              {% for icon in item.icons %}
+                <a class="has-text-grey-dark" href="{{icon.url}}"><i class="fab fa-{{icon.icon}}"></i></a>
               {% endfor %}
             </p>
           {% else %}
