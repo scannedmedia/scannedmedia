@@ -32,14 +32,14 @@ header-cont:
   phrase:
   - word: designed
     size: 6.8
-    padding-top: 4
+    padding: 4
     color: "#47BEAA"
   - word: for small
-    font-size: 5.8
-    padding-top: 10
+    font: 5.8
+    padding: 10
     color: "#EC008C"
   - word: business
-    font-size: 5.24
+    font: 5.24
     padding-top: 4
     color: "#47BEAA"
   text: |-
