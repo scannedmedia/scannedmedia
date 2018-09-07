@@ -3,9 +3,12 @@ title: index
 date: 2018-06-19 18:55:00 -07:00
 position: 0
 testimonials:
-- title: 
-  author: 
-  company: 
+- person: Michael Lish
+  company: D.Lish's Hamburgers
+  quote: When Noah gave me the presentation, I was blown away, way more functionality
+    than I thought possible and affordable!
+- person: Lindsey Adrienne
+  company: Liberty Lake Juice Compan
   quote: 
 services:
 - image: "/uploads/apps.svg"
