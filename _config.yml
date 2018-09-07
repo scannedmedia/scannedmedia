@@ -12,9 +12,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  services:
-    title: services
-    output: true
   work:
     title: work
     output: true
