@@ -6,9 +6,6 @@ collections:
     title: Posts
     output: true
     heading: Have you read our latest blog posts?
-  testimonials:
-    title: Testimonials
-    output: true
   uploads:
     title: Uploads
     output: true
