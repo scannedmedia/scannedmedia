@@ -9,7 +9,8 @@ testimonials:
     than I thought possible and affordable!
 - person: Lindsey Adrienne
   company: Liberty Lake Juice Compan
-  quote: 
+  quote: We are so pleased with Scanned Media at Liberty Lake Juice Company! The process
+    from start to finish has been a great experience.
 services:
 - image: "/uploads/apps.svg"
   title: Apps
