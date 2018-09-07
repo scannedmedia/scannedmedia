@@ -7,9 +7,10 @@ testimonials:
   company: D.Lishs Hamburgers
   quote: When Noah gave me the presentation, I was blown away, way more functionality
     than I thought possible and affordable!
-- person: 
-  company: 
-  quote: 
+- person: Lindsey Adrienne
+  company: Liberty Lake Juice Company
+  quote: We are so pleased with Scanned Media at Liberty Lake Juice Company! The process
+    from start to finish has been a great experience.
 services:
 - image: "/uploads/apps.svg"
   title: Apps
