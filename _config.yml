@@ -128,7 +128,7 @@ contact:
   - Web
   - Other
   message: Message
-Services:
+services:
 - image: "/uploads/apps.svg"
   title: Apps
   text: Our apps enable you to interact with your customers and reward their business
