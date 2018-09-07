@@ -128,3 +128,20 @@ contact:
   - Web
   - Other
   message: Message
+Services:
+- image: "/uploads/apps.svg"
+  title: Apps
+  text: Our apps enable you to interact with your customers and reward their business
+    engagement by making your services accessible. We will work with you to establish
+    a relationship between your business and your customers.
+- image: "/uploads/branding.svg"
+  title: Branding
+  text: Branding is the first impression in the marketing world.  The moment they
+    see your logo and collateral material they will immediately develop an opinion
+    about your company. We can help you communicate through your brand to pique interest
+    and draw in the proper customers for your business.
+- image: "/uploads/web.svg"
+  title: Web
+  text: "A website is just the start. We’ll build a website that serves your audience
+    and communicates why you’re the solution they need. \nOur focus is to create a
+    website that will engage with your customers and generate \nmore exposure."
