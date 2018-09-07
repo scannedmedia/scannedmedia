@@ -16,9 +16,11 @@
       <div class="column is-6 tablet "></div>
       <div class="column is-4 mobile-title-overlay heading-sect">
         <div class="is-uppercase has-text-weight-bold is-marginless is-paddingless header-line-height">
-          <div class="full-width-des">designed</div>
-          <div class="full-width-for">for small</div>
-          <div class="full-width-bus">businesses</div>
+          {% for text in page.header-cont.phrase %}
+            <div style="color: {{text.color}}; padding-top: {{text.padding}}; font-size: {{text.size}}; ">
+              {{text.word}}
+            </div>
+          {% endfor %}
         </div>
         <div class="has-text-justified is-size-6 is-size-7-mobile">
           
@@ -39,7 +41,7 @@
       <article>
         <div class="container">
           <div class="columns is-multiline">
-            {% for service in site.services %}
+            {% for service in page.services %}
               <div class="column">
                 <div class="columns is-mobile">
                   <div class="column is-4">
@@ -100,11 +102,11 @@
           <div class="carousel-container fullwidth is-size-3 is-size-6-mobile has-text-weight-bold has-text-centered">
             <div class="carousel-content carousel-animate carousel-num-1 fullwidth">
               
-              {% for review in site.testimonials %}
+              {% for review in page.testimonials %}
               <div class="carousel-item" >
                   <div class="has-text-white" >
-                      {{review.content}}
-                    <p class="has-text-centered is-size-5 is-size-7-mobile has-text-weight-light">{{review.author}} | {{review.title}}</p>
+                      {{review.quote}}
+                    <p class="has-text-centered is-size-5 is-size-7-mobile has-text-weight-light">{{review.person}} | {{review.company}}</p>
                   </div> <!-- End Content -->
               </div> <!-- End Carousel-Item -->
               {% endfor %}
