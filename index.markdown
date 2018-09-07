@@ -31,16 +31,16 @@ services:
 header-cont:
   phrase:
   - word: designed
-    size: 6.8
-    padding: 4
+    size: 6.8vw
+    padding: 4px
     color: "#47BEAA"
   - word: for small
-    font: 5.8
-    padding: 10
+    font: 5.8vw
+    padding: 10px
     color: "#EC008C"
   - word: business
-    font: 5.24
-    padding-top: 4
+    font: 5.24vw
+    padding: 4px
     color: "#47BEAA"
   text: |-
     From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effective ways to connect and interact with them.
