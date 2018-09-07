@@ -16,73 +16,75 @@
       <div class="column is-6 tablet "></div>
       <div class="column is-4 mobile-title-overlay heading-sect">
         <div class="is-uppercase has-text-weight-bold is-marginless is-paddingless header-line-height">
-          <span class="full-width-des">designed</span><br>
-          <span class="full-width-for">for small</span><br>
-          <span class="full-width-bus">businesses</span>
+          <div class="full-width-des">designed</div>
+          <div class="full-width-for">for small</div>
+          <div class="full-width-bus">businesses</div>
         </div>
         <div class="has-text-justified is-size-6 is-size-7-mobile">
           
-         <p class="p-pos">From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effectiv eways to connect and interact with them.</p>
-         <p class="p-pos">Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.</p>          
+         <div class="p-pos content" style="overflow-y:scroll;">
+           <p>From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effectiv eways to connect and interact with them.</p>
+           <p>Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.</p> 
+           <p>It’s no secret that small businesses are the backbone of the our economy. Any edge you can  gain to stay in the ring with your heavy weight competitors is very crucial. The advantage to partnering with ScannedMedia is working with a talented and local team.</p> 
+         </div>        
         </div>
       </div>
       <div class="column is-2 tablet"></div>
     </div>
     <!-- /.hero -->
-    <section class="hero is-fullheight" id="services">
-      <div class="hero-head"><h1 class="title has-text-centered is-size-1 is-uppercase">Our services</h1></div>
-      <div class="hero-body">
-        <div class="container">
-          <section class="ac-container columns" style="align-items:center;">
-            <div class="column">
-              <input id="ac-1" name="accordion-1" type="radio" />
-              <label for="ac-1" class="has-text-centered">
-                <img src="https://www.krsites.com/wp-content/uploads/2015/06/Orygyns-Coffee-Mockup-2.png" alt=""><br>
-                Branding
-              </label>
-              <article class="ac-medium">
-                <div>
-                  <p>Some content... </p>
-                  <a href="#"><button class="button is-fullwidth">Learn More</button></a>
-                </div>
-              </article>
-            </div>
-            <div class="column">
-              <input id="ac-2" name="accordion-1" type="radio" checked/>
-              <label for="ac-2" class="has-text-centered">
-                <img src="http://stepforadder.com/wp-content/uploads/2015/09/mobile-application-development.png" alt=""><br>
-                Apps
-              </label>
-              <article class="ac-medium">
-                <div>
-                  <p>Some content... </p>
-                  <a href="#"><button class="button is-fullwidth">Learn More</button></a>
-                </div>
-              </article>
-            </div>
-            <div class="column">
-              <input id="ac-3" name="accordion-1" type="radio" />
-              <label for="ac-3" class="has-text-centered">
-                <img src="http://www.4lpi.com/wp-content/uploads/2016/08/WeConnect-Sample-EpiphanyCathedral.png" alt=""><br>
-                Websites
-              </label>
-              <article class="ac-small">
-                <div>
-                  <p>Some content... </p>
-                  <a href="#"><button class="button is-fullwidth">Learn More</button></a>
-                </div>
-              </article>
-            </div>
-          </section>
-        </div>
+    <section class="section is-paddingless-hori" id="services">
+      <div class="has-text-centered is-size-3 has-text-weight-bold">
+        <h3>Our Services</h3>
       </div>
+      <article>
+        <div class="container">
+          <div class="columns is-multiline">
+            {% for service in site.services %}
+              <div class="column">
+                <div class="columns is-mobile">
+                  <div class="column is-4">
+                    <img src="{{service.image}}" alt="">
+                  </div>
+                  <div class="column is-8">
+                    <h4 class="has-text-weight-bold subtitle is-marginless">
+                      {{service.title}}
+                    </h4>
+                    <div class="content">
+                      {{service.text}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </article>
     </section>
 
+    <section class="hero" id="work">
+        <div class="columns is-multiline is-marginless work-parent">
+          {% for set in site.work limit: 6 %}
+            <div class="column">
+              <div class="work-item">
+                <div class="work-child" style="background:url({{set.head-image}}) center / cover; padding:0px;">
+                </div>
+                <a class="is-overlay" href="{{set.url}}">
+                  <div class="has-text-centered">
+                    <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
+                    <p class="">{{set.subtitle}}</p> 
+                  </div>
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
     <section class="section is-paddingless-hori has-background-lightgrey" id="posts">
-    <div class="has-text-centered is-size-3 has-text-weight-bold">
-      <h3>Our Latest Blog Posts</h3>
-    </div>
-    {% include blog.html %}
+      <div class="has-text-centered is-size-3 has-text-weight-bold">
+        <h3>Our Latest Blog Posts</h3>
+      </div>
+      {% include blog.html %}
     </section>
 
     <section class="section testimonials has-background-grey-dark">

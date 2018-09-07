@@ -27,10 +27,12 @@ body {
   background: rgba(255,255,255,.7)
 }
 .header-line-height {
-  line-height: 3.3vw;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 4.2vw;
 }
 .heading-sect {
-  padding: 5vw 0px 0px 5vw;
+  padding: 2.5vw 0px 0px 2.5vw;
   margin-top: 15%;
 }
 .is-paddingless-hori {
@@ -38,18 +40,21 @@ body {
   padding-right: 0px;
 }
 .p-pos {
-  margin:3vw 5vw 0px 0vw;
+  margin: 1.9vw 2.5vw 0px 0px;
 }
 .full-width-des {
-  font-size: 5.7vw;
+  font-size: 6.5vw;
   color: #26A089;
+  padding-top: 8px;
 }
 .full-width-for {
-  font-size: 5.1vw;
+  font-size: 5.8vw;
+  padding-top: 10px;
   color: #EC008C;
 }
 .full-width-bus {
-  font-size: 4.6vw;
+  font-size: 5.24vw;
+  padding-top: 4px;
   color: #47BEAA;
 }
 
