@@ -37,8 +37,6 @@ columns:
 - column-size: is-6
   image: "/uploads/cs-font-2.jpg"
 - column-size: is-6
-  image: "/uploads/cs-collateral-3.jpg"
-- column-size: is-6
   title: '03'
   subtitle: collateral
   para: Additional Material
