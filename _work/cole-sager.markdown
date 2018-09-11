@@ -23,10 +23,10 @@ columns:
   image: "/uploads/cs-logo-1.jpg"
 - column-size: is-6
   image: "/uploads/cs-logo-2.jpg"
-- column-size: is-12
-  image: "/uploads/cs-logo-3.jpg"
 - column-size: is-6
   image: "/uploads/cs-logo-4.jpg"
+- column-size: is-12
+  image: "/uploads/cs-logo-3.jpg"
 - column-size: is-6
   title: '02'
   subtitle: font
@@ -36,7 +36,7 @@ columns:
   image: "/uploads/cs-font-1.jpg"
 - column-size: is-6
   image: "/uploads/cs-font-2.jpg"
-- column-size: is-12
+- column-size: is-6
   title: '03'
   subtitle: collateral
   para: Additional Material
