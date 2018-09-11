@@ -8,7 +8,7 @@ testimonials:
   quote: When Noah gave me the presentation, I was blown away, way more functionality
     than I thought possible and affordable!
 - person: Lindsey Adrienne
-  company: Liberty Lake Juice Compan
+  company: Liberty Lake Juice Company
   quote: We are so pleased with Scanned Media at Liberty Lake Juice Company! The process
     from start to finish has been a great experience.
 - person: Monica Lang
