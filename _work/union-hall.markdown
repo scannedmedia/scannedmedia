@@ -23,6 +23,10 @@ columns:
 - column-size: is-12
   image: "/uploads/-logo-4.png"
 - column-size: is-12
+  title: '02'
+  subtitle: font
+  para: Supporting Type
+  is-catagory: true
   image: "/uploads/-logo-5.png"
 - column-size: is-12
   image: "/uploads/-logo-6.png"
@@ -33,6 +37,10 @@ columns:
   para: Supporting Type
   is-catagory: true
 - column-size: is-6
+  title: '03'
+  subtitle: collateral
+  para: Additional Material
+  is-catagory: true
   image: "/uploads/-type-3.png"
 - column-size: is-6
   image: "/uploads/-type-1.png"
@@ -45,9 +53,11 @@ columns:
   is-catagory: true
   image: 
 - column-size: is-6
-  image: 
-- column-size: is-6
-  image: 
+  image: "/uploads/-xcollateral-1.png"
+- column-size: is-12
+  image: "/uploads/-xcollateral-3.png"
+- column-size: is-12
+  image: "/uploads/-xcollateral-4.png"
 categories:
 - branding
 ---
