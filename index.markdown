@@ -11,6 +11,10 @@ testimonials:
   company: Liberty Lake Juice Compan
   quote: We are so pleased with Scanned Media at Liberty Lake Juice Company! The process
     from start to finish has been a great experience.
+- person: Monica Lang
+  company: The Wellness Bar
+  quote: Oh... where to even begin! Noah and his team rocked our new phone app for
+    my juice bar company!
 services:
 - image: "/uploads/apps.svg"
   title: Apps
