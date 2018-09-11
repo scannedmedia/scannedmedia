@@ -35,11 +35,11 @@ header-cont:
     padding: 4px
     color: "#47BEAA"
   - word: for small
-    font: 5.8vw
+    size: 5.8vw
     padding: 10px
     color: "#EC008C"
   - word: business
-    font: 5.24vw
+    size: 5.24vw
     padding: 4px
     color: "#47BEAA"
   text: |-
