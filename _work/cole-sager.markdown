@@ -25,7 +25,7 @@ columns:
   image: "/uploads/cs-logo-2.jpg"
 - column-size: is-6
   image: "/uploads/cs-logo-4.jpg"
-- column-size: is-12
+- column-size: is-header
   image: "/uploads/cs-logo-3.jpg"
 - column-size: is-6
   image: "/uploads/cs-font-1.jpg"
