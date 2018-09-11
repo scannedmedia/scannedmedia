@@ -19,7 +19,7 @@ columns:
   subtitle: logo
   para: Be The Impact
   is-catagory: true
-  image: "/uploads/cs-logo-1.jpg"
+  image: "/"
 - column-size: is-6
   title: '01'
   subtitle: logo
