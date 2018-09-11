@@ -1,6 +1,7 @@
 ---
 title: Coffee Lab
 date: 2018-06-24 18:13:00 -07:00
+subtitle: Brand + Identity
 head-image: "/uploads/coffee-lab-header.jpg"
 columns:
 - column-size: is-header
