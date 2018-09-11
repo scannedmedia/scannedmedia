@@ -5,7 +5,7 @@ categories:
 - branding
 - app
 - website
-subtitle: branding + identity
+subtitle: Branding + Identity + Website
 head-image: "/uploads/coleSager-header.png"
 columns:
 - column-size: is-header
