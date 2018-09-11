@@ -35,14 +35,14 @@ columns:
   para: supporting type
   is-catagory: true
 - column-size: is-6
+  image: "/uploads/cs-font-2.jpg"
+- column-size: is-6
+  image: "/uploads/cs-collateral-2.jpg"
+- column-size: is-6
   title: '03'
   subtitle: collateral
   para: Additional Material
   is-catagory: true
-- column-size: is-6
-  image: "/uploads/cs-font-2.jpg"
-- column-size: is-6
-  image: "/uploads/cs-collateral-2.jpg"
 - column-size: is-6
   image: "/uploads/cs-collateral-1.jpg"
 layout: works
