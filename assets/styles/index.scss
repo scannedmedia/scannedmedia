@@ -204,11 +204,16 @@ body {
 .column-body-content h2 {
   margin-top: -10px;
   margin-bottom: 15px;
-
+}
+.column-body-content div {
+  max-width: 700px;
+}
+.column-body-content p {
+  font-size: 1.2em;
 }
 .big-numbers {
   font-weight:900; 
-  font-size:20rem; 
+  font-size: 16rem; 
   text-decoration:underline;
 }
 
@@ -367,6 +372,9 @@ select:valid {
   flex:none;
   width:100%;
   }
+  .column-body-content p {
+    font-size: 1.2em;
+  }
   .big-numbers {
     font-size:15rem; 
   }
@@ -437,8 +445,11 @@ select:valid {
   .column-size-is-header:after {
     padding-bottom: 50%;
   }
+  .column-body-content p {
+    font-size: 1em;
+  }
   .big-numbers {
-    font-size:10rem; 
+    font-size:16rem; 
   }
   .i-img {
     width:20px;
@@ -470,5 +481,11 @@ select:valid {
 @media (max-width:  420px) { // mini mobile
   .p-pos {
     margin:3vw 5vw 0px 0vw;
+  }
+  .column-body-content p {
+    font-size: .9em;
+  }
+  .big-numbers {
+    font-size:8rem; 
   }
 }
