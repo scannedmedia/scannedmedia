@@ -15,11 +15,7 @@ columns:
   image: "/uploads/cole-sager-body.jpg"
   is-body: true
 - column-size: is-6
-  title: '01'
-  subtitle: logo
-  para: Be The Impact
-  is-catagory: true
-  image: "/"
+  image: "/uploads/cs-logo-1.jpg"
 - column-size: is-6
   title: '01'
   subtitle: logo
