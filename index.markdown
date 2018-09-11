@@ -29,19 +29,6 @@ services:
     and communicates why you’re the solution they need. Our focus is to create a website
     that will engage with your customers and generate more exposure.
 header-cont:
-  phrase:
-  - word: designed
-    size: 6.6vw
-    padding: 4px
-    color: "#47BEAA"
-  - word: for small
-    size: 6.6vw
-    padding: 10px
-    color: "#EC008C"
-  - word: businesses
-    size: 5.24vw
-    padding: 4px
-    color: "#47BEAA"
   text: |-
     From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effective ways to connect and interact with them.
     Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.
