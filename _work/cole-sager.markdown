@@ -15,12 +15,12 @@ columns:
   image: "/uploads/cole-sager-body.jpg"
   is-body: true
 - column-size: is-6
+  image: "/uploads/cs-logo-1.jpg"
+- column-size: is-6
   title: '01'
   subtitle: logo
   para: Be The Impact
   is-catagory: true
-- column-size: is-6
-  image: "/uploads/cs-logo-1.jpg"
 - column-size: is-6
   image: "/uploads/cs-logo-2.jpg"
 - column-size: is-6
@@ -28,21 +28,21 @@ columns:
 - column-size: is-header
   image: "/uploads/cs-logo-3.jpg"
 - column-size: is-6
-  image: "/uploads/cs-font-1.jpg"
-- column-size: is-6
   title: '02'
   subtitle: font
   para: supporting type
   is-catagory: true
 - column-size: is-6
-  image: "/uploads/cs-font-2.jpg"
+  image: "/uploads/cs-font-1.jpg"
 - column-size: is-6
-  image: "/uploads/cs-collateral-2.jpg"
+  image: "/uploads/cs-font-2.jpg"
 - column-size: is-6
   title: '03'
   subtitle: collateral
   para: Additional Material
   is-catagory: true
+- column-size: is-6
+  image: "/uploads/cs-collateral-2.jpg"
 - column-size: is-6
   image: "/uploads/cs-collateral-1.jpg"
 layout: works
