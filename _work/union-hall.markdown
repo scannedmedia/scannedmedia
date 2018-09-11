@@ -18,38 +18,28 @@ columns:
   image: "/uploads/-logo-1.png"
 - column-size: is-6
   image: "/uploads/-logo-2.png"
-- column-size: is-12
+- column-size: is-6
   image: "/uploads/-logo-3.png"
 - column-size: is-12
   image: "/uploads/-logo-4.png"
 - column-size: is-12
-  title: '02'
-  subtitle: font
-  para: Supporting Type
-  is-catagory: true
-  image: "/uploads/-logo-5.png"
-- column-size: is-12
   image: "/uploads/-logo-6.png"
+- column-size: is-6
+  image: "/uploads/-type-3-81d2b2.png"
 - column-size: is-6
   image: 
   title: '02'
   subtitle: Fonts
-  para: Supporting Type
+  para: Logo & Body Copy
   is-catagory: true
-- column-size: is-6
-  title: '03'
-  subtitle: collateral
-  para: Additional Material
-  is-catagory: true
-  image: "/uploads/-type-3.png"
 - column-size: is-6
   image: "/uploads/-type-1.png"
 - column-size: is-6
   image: "/uploads/-type-2.png"
 - column-size: is-6
   title: '03'
-  subtitle: collateral
-  para: Additional Material
+  subtitle: Supporting Material
+  para: Collateral
   is-catagory: true
   image: 
 - column-size: is-6
