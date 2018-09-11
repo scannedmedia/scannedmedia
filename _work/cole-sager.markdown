@@ -6,13 +6,13 @@ categories:
 - app
 - website
 subtitle: Branding + Identity + Website
-head-image: "/uploads/coleSager-header.png"
+head-image: "/uploads/cole-sager-header.jpg"
 columns:
 - column-size: is-header
-  image: "/uploads/coleSager-header.png"
+  image: "/uploads/cole-sager-header.jpg"
   is-header: true
 - column-size: is-12
-  image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+  image: "/uploads/cole-sager-body.jpg"
   is-body: true
 - column-size: is-6
   title: '01'
@@ -20,31 +20,33 @@ columns:
   para: Be The Impact
   is-catagory: true
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-11-bg-image-.jpg"
+  image: "/uploads/cs-logo-1.jpg"
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-7-bg-image-.jpg"
+  image: "/uploads/cs-logo-2.jpg"
 - column-size: is-12
-  image: "/uploads/cole-sagerArtboard-9-bg-image-.jpg"
+  image: "/uploads/cs-logo-3.jpg"
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-12-bg-image-.jpg"
+  image: "/uploads/cs-logo-4.jpg"
 - column-size: is-6
   title: '02'
   subtitle: font
   para: supporting type
   is-catagory: true
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
+  image: "/uploads/cs-font-1.jpg"
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
+  image: "/uploads/cs-font-2.jpg"
 - column-size: is-12
   title: '03'
   subtitle: collateral
   para: Additional Material
   is-catagory: true
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
+  image: "/uploads/cs-collateral-1.jpg"
 - column-size: is-6
-  image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
+  image: "/uploads/cs-collateral-2.jpg"
+- column-size: is-6
+  image: "/uploads/cs-collateral-3.jpg"
 layout: works
 ---
 
