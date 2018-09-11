@@ -21,7 +21,7 @@ columns:
   subtitle: logo
   para: Be The Impact
   is-catagory: true
-  color: orange
+  color: 
 - column-size: is-6
   image: "/uploads/cs-logo-4.jpg"
 - column-size: is-6
