@@ -12,7 +12,7 @@
         {% for item in page.columns %}
           {% if item.is-catagory %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
-            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}}); background-color: {{item.color}};">
               <div class="column-content {{item.title}}">
                 <div>
                   <p class="title is-underlined big-numbers is-marginless">{{item.title}}</p>
