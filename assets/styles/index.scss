@@ -337,7 +337,11 @@ select:valid {
 .tile {
   border-radius:0px;
 }
-
+@media (max-width: 1280px ) {
+  .p-pos {
+    font-size: .9rem;
+  }
+}
 @media (max-width: 1024px) { // Tablet
   .desktop {
 		display: none;

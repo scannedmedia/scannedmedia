@@ -258,6 +258,7 @@ select:valid { color: black; }
 
 .tile { border-radius: 0px; }
 
+@media (max-width: 1280px) { .p-pos { font-size: .9rem; } }
 @media (max-width: 1024px) { .desktop { display: none; }
   .mobile { display: block; }
   .cover { background: black url("assets/img/Optimized-Working-2.png") center/cover; }
