@@ -15,6 +15,12 @@ columns:
   image: "/uploads/cole-sager-body.jpg"
   is-body: true
 - column-size: is-6
+  title: '01'
+  subtitle: Catagory Title
+  para: Catagory Explanation
+  is-catagory: true
+  color: grey
+  text-color: white
   image: "/uploads/cs-logo-1.jpg"
 - column-size: is-6
   title: '01'
@@ -45,6 +51,8 @@ columns:
   subtitle: collateral
   para: Additional Material
   is-catagory: true
+  color: grey
+  text-color: white
 - column-size: is-6
   image: "/uploads/cs-collateral-2.jpg"
 - column-size: is-6
@@ -52,4 +60,4 @@ columns:
 layout: works
 ---
 
-Cole Sager is a personal trainer specializing in cross-fit, ranked 7th nationally in competition for 2018. Cole wanted something simple, clean-cut, trustworthy, powerful, passionate. In the early stages of our process, we felt an eagle represented those qualities well and showed him some thumbnails he loved. The color palette was chosen to exemplify these characteristics with orange being powerful and passionate, and blue counter-acting to create balance with grace. Finally, for the type, we took his signature and transcribed it in a hand-lettered style.
+Cole Sager is a personal trainer specializing in cross-fit, ranked 7th nationally in competition for 2018. Cole wanted something simple, clean-cut, trustworthy, powerful and passionate. In the early stages of our process, we felt an eagle represented those qualities well and showed him some thumbnails he loved. The color palette was chosen to exemplify these characteristics with orange being powerful and passionate, and blue counter-acting to create balance with grace. Finally, for the type, we took his signature and transcribed it in a hand-lettered style.

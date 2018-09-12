@@ -30,16 +30,16 @@ defaults:
 - scope:
     path: ''
     type: work
-  values: # sets default values for items in each type of collection the collection
+  values:
     layout: works
     subtitle: Service Catagories
     head-image: 
-    columns: # A list of columns that is rendered to the page 
-    - column-size: is-header # defines column size
-      image: #defines background image
+    columns:
+    - column-size: is-header
+      image: 
     - column-size: is-12
       image: 
-      is-body: true # sets the page content, Title and Subtitle to be rendered onto this column.
+      is-body: true
     - column-size: is-6
       title: '01'
       subtitle: Catagory Title
