@@ -18,22 +18,36 @@
 body {
   overflow: hidden;
 }
+// navbar styles
 .navbar-brand, .navbar-burger {
   min-height: 5rem;
   min-width: 5rem;
 }
+.navbar-item a {
+  color: #26A089;
+}
+.navbar-item:hover {
+  color: #4a4a4a !important;
+  font-weight: 700;
+  border-bottom: 4pt solid #4a4a4a; 
+  transition: border-bottom cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+// end navbar styles
+
 // Cover Styles
 .mobile-title-overlay {
   background: rgba(255,255,255,.7)
 }
 .header-line-height {
-  overflow: hidden;
   white-space: nowrap;
   line-height: 4.2vw;
 }
 .heading-sect {
   padding: 2.5vw 0px 0px 2.5vw;
   margin-top: 15%;
+  overflow: hidden;
+  overflow-y: auto;
+  padding-bottom: 15px;
 }
 .is-paddingless-hori {
   padding-left: 0px;
@@ -84,12 +98,13 @@ body {
 .testimonials .carousel-content {
   width: 100%;
 }
-// stifyconise sits slightly larger than a mobile screen
 
 .testimonials .columns article {
   margin-bottom: 0px;
   padding:0;
 }
+
+// start of work styles
 
 .work-item {
   position: relative;
@@ -217,9 +232,7 @@ body {
   text-decoration:underline;
 }
 
-#apps .conlumn-content {
-  flex-direction:column;
-}
+// end of work styles
 
 .i-img {
   width:30px;
@@ -471,12 +484,12 @@ select:valid {
   }
   .full-width-for {
     font-size: 17.42vw;
-    padding-top: 15px;
+    padding-top: 36px;
     color: #EC008C;
   }
   .full-width-bus {
     font-size: 20vw;
-    padding-top: 15px;
+    padding-top: 36px;
     padding-bottom: 10px;
     color: #47BEAA;
   }
@@ -490,5 +503,31 @@ select:valid {
   }
   .big-numbers {
     font-size:8rem; 
+  }
+  // Cover Styles
+  .header-line-height {
+    line-height: 10vw;
+  }
+  .heading-sect {
+    padding: 5vw 0px 5px 5vw;
+    margin: 0px;
+  }
+  .p-pos {
+    margin:3vw 5vw 0px 0vw;
+  }
+  .full-width-des {
+    font-size: 20vw;
+    color: #26A089;
+  }
+  .full-width-for {
+    font-size: 17.42vw;
+    padding-top: 15px;
+    color: #EC008C;
+  }
+  .full-width-bus {
+    font-size: 20vw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #47BEAA;
   }
 }
