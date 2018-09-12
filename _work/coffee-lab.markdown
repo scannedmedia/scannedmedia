@@ -35,7 +35,7 @@ columns:
 - column-size: is-6
   image: "/uploads/cl-font-1.jpg"
 - column-size: is-6
-  image: "/uploads/_font-2.jpg"
+  image: "/uploads/cl-font-2.jpg"
 - column-size: is-6
   image: "/uploads/cl-font-3.jpg"
 - column-size: is-6
