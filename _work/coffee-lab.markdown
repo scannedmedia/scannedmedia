@@ -39,13 +39,13 @@ columns:
 - column-size: is-6
   image: "/uploads/cl-font-3.jpg"
 - column-size: is-6
+  image: "/uploads/cl-collateral-1.jpg"
+- column-size: is-6
   image: 
   title: '03'
   subtitle: collateral
   para: Signage & Card
   is-catagory: true
-- column-size: is-6
-  image: "/uploads/cl-collateral-1.jpg"
 - column-size: is-6
   image: "/uploads/cl-collateral-2.jpg"
 ---
