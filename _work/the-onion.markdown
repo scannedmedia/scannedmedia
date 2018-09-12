@@ -6,7 +6,7 @@ head-image: "/uploads/on-header.jpg"
 columns:
 - column-size: is-header
   image: "/uploads/on-header.jpg"
-- column-size: is-header
+- column-size: is-12
   is-body: true
 - column-size: is-header
   image: "/uploads/on-catagory.jpg"
