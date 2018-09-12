@@ -30,23 +30,23 @@ defaults:
 - scope:
     path: ''
     type: work
-  values:
+  values: # sets default values for items in each type of collection the collection
     layout: works
-    subtitle: branding + identity
+    subtitle: Service Catagories
     head-image: 
-    columns:
-    - column-size: is-header
-      image: 
+    columns: # A list of columns that is rendered to the page 
+    - column-size: is-header # defines column size
+      image: #defines background image
     - column-size: is-12
       image: 
-      is-body: true
+      is-body: true # sets the page content, Title and Subtitle to be rendered onto this column.
     - column-size: is-6
       title: '01'
       subtitle: Catagory Title
       para: Catagory Explanation
-      is-catagory: true
-      color: "grey"
-      text-color: white
+      is-catagory: true # renderes content as a catagory rather than information
+      color: "grey" # box background color
+      text-color: white # text color
     - column-size: is-6
       image: 
     - column-size: is-6
