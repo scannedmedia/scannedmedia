@@ -5,11 +5,11 @@ position: 1
 subtitle: Branding
 head-image: "/uploads/em-header.png"
 columns:
-- column-size: 
+- column-size: is-header
   image: "/uploads/em-header.png"
-- column-size: 
+- column-size: is-12
   image: 
-  is-body: 
+  is-body: true
 - column-size: is-header
   image: "/uploads/em-collateral-2.png"
 - column-size: is-6
