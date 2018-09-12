@@ -15,9 +15,12 @@
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}}); background-color: {{item.color}};">
               <div class="column-content {{item.title}}">
                 <div>
-                  <p class="title is-underlined big-numbers is-marginless" style="color:{{item.text-color}};">{{item.title}}</p>
-                  <h3 class="has-font-weight-light is-size-1 is-marginless" style="color:{{item.text-color}};">{{item.subtitle}}</h3>
-                  <h4 class="subtitle is-capitalized is-size-3 is-marginless" style="color:{{item.text-color}};">{{item.para}}</h4>
+                  <p class="title is-underlined big-numbers is-marginless" style="color:{{item.text-color}};">
+                  {{item.title}}</p>
+                  <h3 class="has-font-weight-light is-size-1 is-marginless" style="color:{{item.text-color}};">
+                  {{item.subtitle}}</h3>
+                  <h4 class="subtitle is-capitalized is-size-3 is-size-4-mobile is-marginless" style="color:{{item.text-color}};">
+                  {{item.para}}</h4>
                 </div>
               </div>
             </div>
@@ -28,9 +31,9 @@
               <div class="column-content">
                 {% if item.is-body %}
                 <div class="has-text-centered is-size-7 column-body-content">
-                  <div>
-                    <h1 class="has-text-weight-bold is-size-2 is-uppercase">{{page.title}}</h1>
-                    <h2 class="has-text-weight-medium is-size-5">{{page.subtitle}}</h2>
+                  <div class="content">
+                    <h1 class="has-text-weight-bold is-size-2 is-uppercase is-marginless">{{page.title}}</h1>
+                    <h2 class="has-text-weight-medium is-size-5 is-marginless">{{page.subtitle}}</h2><br>
                     {{content}}
                   </div>
                 </div>

@@ -40,42 +40,18 @@ defaults:
     - column-size: is-12
       image: 
       is-body: true
-    - column-size: is-6
-      title: '01'
-      subtitle: Catagory Title
-      para: Catagory Explanation
-      is-catagory: true
-      color: grey
-      text-color: white
-    - column-size: is-6
-      image: 
-    - column-size: is-6
-      image: 
-    - column-size: is-12
-      image: 
-    - column-size: is-6
-      image: 
-    - column-size: is-6
-      title: '02'
-      subtitle: Catagory Title
-      para: Catagory Explanation
-      is-catagory: true
-      color: grey
-      text-color: white
+    - column-size: 
+      title:
+      subtitle: 
+      para: 
+      is-catagory: 
+      color: 
+      text-color: 
     - column-size: is-6
       image: 
     - column-size: is-6
       image: 
     - column-size: is-12
-      title: '03'
-      subtitle: Catagory Title
-      para: Catagory Explanation
-      is-catagory: true
-      color: grey
-      text-color: white
-    - column-size: is-6
-      image: 
-    - column-size: is-6
       image: 
 - scope:
     path: ''
