@@ -5,11 +5,11 @@ position: 3
 subtitle: Brand + Website
 head-image: "/uploads/cc-header-f18a60.png"
 columns:
-- column-size: 
+- column-size: is-header
   image: "/uploads/cc-header.png"
-- column-size: 
+- column-size: is-12
   image: 
-  is-body: 
+  is-body: true
 - column-size: is-6
   image: "/uploads/cc-logo-1.png"
 - column-size: is-6
