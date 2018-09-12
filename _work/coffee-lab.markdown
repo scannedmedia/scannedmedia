@@ -37,12 +37,6 @@ columns:
 - column-size: is-6
   image: "/uploads/_font-2.jpg"
 - column-size: is-6
-  title: '03'
-  subtitle: Catagory Title
-  para: Catagory Explanation
-  is-catagory: true
-  color: grey
-  text-color: white
   image: "/uploads/cl-font-3.jpg"
 - column-size: is-6
   image: 
