@@ -5,11 +5,11 @@ position: 0
 subtitle: App
 head-image: "/uploads/wb-header.png"
 columns:
-- column-size: 
+- column-size: is-header
   image: "/uploads/wb-header.png"
-- column-size: 
+- column-size: is-12
   image: 
-  is-body: 
+  is-body: true
 - column-size: is-6
   image: "/uploads/wb-feature-food.png"
 - column-size: is-6
