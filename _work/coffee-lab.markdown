@@ -25,18 +25,26 @@ columns:
 - column-size: is-12
   image: "/uploads/cl-logo-4.jpg"
 - column-size: is-6
-  image: 
   title: '02'
   subtitle: font
   para: Logo & Type
   is-catagory: true
+  color: grey
+  text-color: white
+  image: 
 - column-size: is-6
   image: "/uploads/cl-font-1.jpg"
 - column-size: is-6
   image: "/uploads/_font-2.jpg"
 - column-size: is-6
+  title: '03'
+  subtitle: Catagory Title
+  para: Catagory Explanation
+  is-catagory: true
+  color: grey
+  text-color: white
   image: "/uploads/cl-font-3.jpg"
-- column-size: is-12
+- column-size: is-6
   image: 
   title: '03'
   subtitle: collateral
