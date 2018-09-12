@@ -15,14 +15,7 @@ columns:
   image: "/uploads/cole-sager-body.jpg"
   is-body: true
 - column-size: is-6
-  title: '01'
-  subtitle: Catagory Title
-  para: Catagory Explanation
-  is-catagory: true
-  color: grey
-  text-color: white
-  image: "/uploads/cs-logo-1.jpg"
-- column-size: is-6
+  image: 
   title: '01'
   subtitle: logo
   para: Be The Impact
