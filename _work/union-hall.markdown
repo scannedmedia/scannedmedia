@@ -14,6 +14,8 @@ columns:
   subtitle: Logo
   para: Community Table-Based Establishment
   is-catagory: true
+  color: grey
+  text-color: white
 - column-size: is-6
   image: "/uploads/-logo-1.png"
 - column-size: is-6
@@ -37,19 +39,17 @@ columns:
 - column-size: is-6
   image: "/uploads/-type-2.png"
 - column-size: is-6
+  image: 
   title: '03'
   subtitle: Supporting Material
   para: Collateral
   is-catagory: true
-  image: 
 - column-size: is-6
   image: "/uploads/-xcollateral-1.png"
 - column-size: is-12
   image: "/uploads/-xcollateral-3.png"
 - column-size: is-12
   image: "/uploads/-xcollateral-4.png"
-categories:
-- branding
 ---
 
 UnionHall is speculative work created to represent a community table-based establishment. In creating the logo, we opted to “unite” the letters U and H into a ligature as a way to strengthen the unity and friendship themes that are interlaced throughout this branding project. 
