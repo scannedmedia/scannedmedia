@@ -1,7 +1,7 @@
 ---
 title: The Wellness Bar
 date: 2018-09-12 13:52:00 -07:00
-position: 5
+position: 4
 subtitle: App
 head-image: "/uploads/wb-header.png"
 columns:
