@@ -7,9 +7,10 @@ columns:
 - column-size: is-header
   image: "/uploads/on-header.jpg"
 - column-size: is-12
+  image: 
   is-body: true
 - column-size: is-header
-  image: "/uploads/on-catagory.jpg"
+  image: "/uploads/on-catagory-alt.jpg"
 - column-size: is-6
   image: "/uploads/on-features-1.jpg"
 - column-size: is-6
