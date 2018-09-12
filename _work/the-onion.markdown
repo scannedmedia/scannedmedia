@@ -7,15 +7,10 @@ columns:
 - column-size: is-header
   image: "/uploads/on-header.jpg"
 - column-size: is-header
-  image: "/uploads/on-catagory.jpg"
   is-body: true
+- column-size: is-header
+  image: "/uploads/on-catagory.jpg"
 - column-size: is-6
-  title: '01'
-  subtitle: Catagory Title
-  para: Catagory Explanation
-  is-catagory: true
-  color: grey
-  text-color: white
   image: "/uploads/on-features-1.jpg"
 - column-size: is-6
   image: "/uploads/on-features-2.jpg"
