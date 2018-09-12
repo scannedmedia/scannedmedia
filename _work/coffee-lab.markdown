@@ -14,38 +14,38 @@ columns:
   subtitle: logo
   para: Scientifically Perfected Coffee Establishment
   is-catagory: true
+  color: grey
+  text-color: white
 - column-size: is-6
-  image: "/uploads/_logo-1.jpg"
+  image: "/uploads/cl-logo-1.jpg"
 - column-size: is-6
-  image: "/uploads/_logo-2.jpg"
+  image: "/uploads/cl-logo-2.jpg"
 - column-size: is-6
-  image: "/uploads/_logo-3.jpg"
+  image: "/uploads/cl-logo-3.jpg"
 - column-size: is-12
-  image: "/uploads/_logo-4.jpg"
+  image: "/uploads/cl-logo-4.jpg"
 - column-size: is-6
-  image: "/uploads/_font-1.jpg"
-- column-size: is-6
+  image: 
   title: '02'
   subtitle: font
   para: Logo & Type
   is-catagory: true
 - column-size: is-6
+  image: "/uploads/cl-font-1.jpg"
+- column-size: is-6
   image: "/uploads/_font-2.jpg"
 - column-size: is-6
-  image: "/uploads/_font-3.jpg"
-- column-size: is-6
-  image: 
+  image: "/uploads/cl-font-3.jpg"
 - column-size: is-12
+  image: 
   title: '03'
   subtitle: collateral
   para: Signage & Card
   is-catagory: true
 - column-size: is-6
-  image: "/uploads/_collateral-1.jpg"
+  image: "/uploads/cl-collateral-1.jpg"
 - column-size: is-6
-  image: "/uploads/_collateral-2.jpg"
-categories:
-- branding
+  image: "/uploads/cl-collateral-2.jpg"
 ---
 
 Coffee Lab is speculative branding presentation created to represent a trendy coffee shop. In creating the logo, we opted to make it reminiscent of the periodic table of elements to reinforce the scientific aspect of the word lab. In doing so the rest of the branding elements have a scientific theme.
