@@ -45,7 +45,7 @@ defaults:
       subtitle: Catagory Title
       para: Catagory Explanation
       is-catagory: true
-      color: "grey"
+      color: grey
       text-color: white
     - column-size: is-6
       image: 
@@ -60,7 +60,7 @@ defaults:
       subtitle: Catagory Title
       para: Catagory Explanation
       is-catagory: true
-      color: "grey"
+      color: grey
       text-color: white
     - column-size: is-6
       image: 
@@ -71,7 +71,7 @@ defaults:
       subtitle: Catagory Title
       para: Catagory Explanation
       is-catagory: true
-      color: "grey"
+      color: grey
       text-color: white
     - column-size: is-6
       image: 
