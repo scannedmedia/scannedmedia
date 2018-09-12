@@ -41,7 +41,7 @@ defaults:
       image: 
       is-body: true
     - column-size: 
-      title:
+      title: 
       subtitle: 
       para: 
       is-catagory: 
