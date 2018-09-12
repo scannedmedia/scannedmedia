@@ -25,6 +25,12 @@ columns:
 - column-size: is-12
   image: "/uploads/-logo-4.png"
 - column-size: is-12
+  title: '02'
+  subtitle: Catagory Title
+  para: Catagory Explanation
+  is-catagory: true
+  color: grey
+  text-color: white
   image: "/uploads/-logo-6.png"
 - column-size: is-6
   image: "/uploads/-type-3-81d2b2.png"
@@ -35,6 +41,12 @@ columns:
   para: Logo & Body Copy
   is-catagory: true
 - column-size: is-6
+  title: '03'
+  subtitle: Catagory Title
+  para: Catagory Explanation
+  is-catagory: true
+  color: grey
+  text-color: white
   image: "/uploads/-type-1.png"
 - column-size: is-6
   image: "/uploads/-type-2.png"
@@ -53,5 +65,6 @@ columns:
 ---
 
 UnionHall is speculative work created to represent a community table-based establishment. In creating the logo, we opted to “unite” the letters U and H into a ligature as a way to strengthen the unity and friendship themes that are interlaced throughout this branding project. 
+
 
 The color palette was decided upon for its earthy yet regal approach. It’s able to remain relaxing and calming while falling seamlessly into vintage and modernity 
