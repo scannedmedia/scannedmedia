@@ -4,7 +4,10 @@ date: 2018-09-12 12:46:00 -07:00
 subtitle: App
 head-image: "/uploads/on-header.jpg"
 columns:
-- image: "/uploads/on-header.jpg"
+- column-size: is-header
+  image: "/uploads/on-header.jpg"
+- column-size: is-12
+  is-body: true
 - column-size: is-header
   image: "/uploads/on-catagory.jpg"
 - column-size: is-6
