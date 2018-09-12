@@ -44,9 +44,9 @@ defaults:
       title: '01'
       subtitle: Catagory Title
       para: Catagory Explanation
-      is-catagory: true # renderes content as a catagory rather than information
-      color: "grey" # box background color
-      text-color: white # text color
+      is-catagory: true
+      color: grey
+      text-color: white
     - column-size: is-6
       image: 
     - column-size: is-6
@@ -60,7 +60,7 @@ defaults:
       subtitle: Catagory Title
       para: Catagory Explanation
       is-catagory: true
-      color: "grey"
+      color: grey
       text-color: white
     - column-size: is-6
       image: 
@@ -71,7 +71,7 @@ defaults:
       subtitle: Catagory Title
       para: Catagory Explanation
       is-catagory: true
-      color: "grey"
+      color: grey
       text-color: white
     - column-size: is-6
       image: 
