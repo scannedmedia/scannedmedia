@@ -36,15 +36,17 @@ defaults:
     head-image: 
     columns:
     - column-size: is-header
-      image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+      image: 
     - column-size: is-12
-      image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+      image: 
       is-body: true
     - column-size: is-6
       title: '01'
-      subtitle: logo
-      para: Be The Impact
+      subtitle: Catagory Title
+      para: Catagory Explanation
       is-catagory: true
+      color: "grey"
+      text-color: white
     - column-size: is-6
       image: 
     - column-size: is-6
@@ -55,18 +57,22 @@ defaults:
       image: 
     - column-size: is-6
       title: '02'
-      subtitle: font
-      para: Supporting Type
+      subtitle: Catagory Title
+      para: Catagory Explanation
       is-catagory: true
+      color: "grey"
+      text-color: white
     - column-size: is-6
       image: 
     - column-size: is-6
       image: 
     - column-size: is-12
       title: '03'
-      subtitle: collateral
-      para: Additional Material
+      subtitle: Catagory Title
+      para: Catagory Explanation
       is-catagory: true
+      color: "grey"
+      text-color: white
     - column-size: is-6
       image: 
     - column-size: is-6
