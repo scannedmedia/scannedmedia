@@ -1,7 +1,7 @@
 ---
 title: Ean Marie Fine Chocolates
 date: 2018-09-12 13:16:00 -07:00
-position: 0
+position: 1
 subtitle: Branding
 head-image: "/uploads/em-header.png"
 columns:
