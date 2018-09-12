@@ -23,7 +23,7 @@
 
 <section class="hero" id="work">
   <div class="columns is-multiline is-marginless work-parent">
-    {% for set in site.work %}
+    {% for set in site.work reversed %}
       <div class="column">
         <div class="work-item">
           <div class="work-child" style="background:url({{set.head-image}}) center / cover; padding:0px;">

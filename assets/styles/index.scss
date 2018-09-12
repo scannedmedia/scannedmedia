@@ -401,7 +401,7 @@ select:valid {
     height: 100%;
   }
   .header-line-height {
-    margin-top: 75px !important;
+    margin-top: 0px !important;
   }
 
   // End Cover
@@ -471,10 +471,13 @@ select:valid {
   }
   .full-width-for {
     font-size: 17.42vw;
+    padding-top: 15px;
     color: #EC008C;
   }
   .full-width-bus {
     font-size: 20vw;
+    padding-top: 15px;
+    padding-bottom: 10px;
     color: #47BEAA;
   }
 }
