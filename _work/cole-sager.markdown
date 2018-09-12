@@ -5,7 +5,7 @@ categories:
 - branding
 - app
 - website
-position: 6
+position: 5
 subtitle: Branding + Identity
 head-image: "/uploads/cole-sager-header.jpg"
 columns:
