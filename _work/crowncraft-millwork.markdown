@@ -1,6 +1,7 @@
 ---
 title: Crowncraft Millwork
 date: 2018-09-12 13:49:00 -07:00
+position: 2
 subtitle: Brand + Website
 head-image: "/uploads/cc-header-f18a60.png"
 columns:
