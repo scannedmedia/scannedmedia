@@ -22,6 +22,6 @@ columns:
   image: "/uploads/cc-collateral-2.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et lacus eget leo blandit maximus ut sed lacus. Morbi rhoncus volutpat convallis. Aenean posuere vitae mi nec feugiat. Fusce euismod tortor vitae dui dictum accumsan. Praesent non dolor nulla. Sed nibh eros, vehicula vitae purus sed, congue vulputate ex. Vivamus vel odio purus. Fusce imperdiet, erat in bibendum sagittis, diam odio dictum nisi, et ultricies lorem mi ut odio.
+Commercial woodworking is far more than a simple addition to a reception area, office, or restaurant—it is a statement. Crowncraft goes above and beyond to ensure that our custom woodwork meets your exact specifications and helps your business make the impression you want. We wanted to take this opportunity to follow suit with the exemplary mark that crowncraft makes and leave them with a statement of their own. We built a Website and Logomark that would communicate who they are and what they do all in one place.
 
 [crowncraft.trade](http://crowncraft.trade/)
