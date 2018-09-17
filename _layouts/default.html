@@ -66,16 +66,18 @@
           {% assign portfolio = site.work | reverse %}
           {% for set in portfolio limit:6 %}
             <div class="column">
-              <div class="work-item">
-                <div class="work-child" style="background:url({{set.head-image}}) center / cover; padding:0px;">
+              <a href="{{set.url}}">
+                <div class="work-item">
+                    <div class="work-child" style="background:url({{set.head-image}}) center / cover; padding:0px;">
+                    </div>
+                    <div class="is-overlay">
+                      <div class="has-text-centered">
+                        <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
+                        <p class="">{{set.subtitle}}</p> 
+                      </div>
+                    </div>
                 </div>
-                <a class="is-overlay" href="{{set.url}}">
-                  <div class="has-text-centered">
-                    <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
-                    <p class="">{{set.subtitle}}</p> 
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           {% endfor %}
         </div>
