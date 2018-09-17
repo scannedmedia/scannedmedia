@@ -22,4 +22,4 @@ columns:
   image: "/uploads/wb-stats.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et lacus eget leo blandit maximus ut sed lacus. Morbi rhoncus volutpat convallis. Aenean posuere vitae mi nec feugiat. Fusce euismod tortor vitae dui dictum accumsan. Praesent non dolor nulla. Sed nibh eros, vehicula vitae purus sed, congue vulputate ex. Vivamus vel odio purus. Fusce imperdiet, erat in bibendum sagittis, diam odio dictum nisi, et ultricies lorem mi ut odio.
+The Wellness Bar reached out to us to streamline their process, solidify their business, and create more revenue. We created an outlet to make their business visible to their customers at all times. Our solution for The Wellness Bar was to build a mobile app that contained Online ordering, digital punch cards, and loyalty to bring their business to a modern digital age.
