@@ -32,9 +32,6 @@ services:
   text: A website is just the start. We’ll build a website that serves your audience
     and communicates why you’re the solution they need. Our focus is to create a website
     that will engage with your customers and generate more exposure.
-- image: "/uploads/wb-feature-home.png"
-  title: ertefsdsgsef
-  text: adasdawdas CWQECQWdacsdcwdwaedacw awwcqwdcasdaw dawcdsada daw
 header-cont:
   text: |-
     From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effective ways to connect and interact with them.
