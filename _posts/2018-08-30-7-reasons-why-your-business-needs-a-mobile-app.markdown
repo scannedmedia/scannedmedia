@@ -2,7 +2,7 @@
 title: 7 Reasons Why Your Business Needs a Mobile App
 date: 2018-08-30 14:14:00 -07:00
 author: Amanda
-image: "/uploads/photo-1489389944381-3471b5b30f04.jpeg"
+image: "/uploads/7-reasons-why-mobile-app.jpg"
 ---
 
 Today I’d like to talk about mobile apps in combination with business, and why you should consider building a mobile app for your own company. If you think that mobile apps are solely for big name brands like Walmart and Bank of America, you are wrong. More and more small and midsize businesses are following the mobile trend, understanding that an effective mobile strategy involves more than just a mobile-friendly website. In fact, these days you’ll notice that many small businesses you interact with in your everyday life have their own dedicated mobile app — be it the corner coffee shop or the beauty spa downtown. These companies are ahead of the game when it comes to taking their marketing to the next level. In case you are still not sure why anyone would want to build their own mobile platform, here are the top seven benefits of going down this path sooner rather than later.
@@ -13,7 +13,7 @@ Statistics show that the average American spends more than two hours a day on hi
 
 ### 2. Create a Direct Marketing Channel
 
-Apps serve many functions: they can provide general info, prices, booking forms, search features, user accounts, messengers, news feeds, and much more. One of the biggest benefits of having a mobile app is that all the information you’d like to provide to your customers – including special sales and promotions – is right at their fingertips. Through push notifications you’re getting even closer to a direct interaction, and can easily remind customers about your products and services whenever it makes sense.
+Apps serve many functions: they can provide general info, prices, booking forms, search features, user accounts, messengers, news feeds, and much more. One of the biggest benefits of having a mobile app is that all the information you’d like to provide to your customers – including special sales and promotions – is right at their fingertips. Through push notifications, you’re getting even closer to a direct interaction, and can easily remind customers about your products and services whenever it makes sense.
 
 ### 3. Provide Value to Your Customers
 
@@ -33,7 +33,7 @@ These days mobile apps at the small business level are still rare, and this is w
 
 ### 7. Cultivate Customer Loyalty
 
-Last, but not least, the most important reason why you should consider building your own mobile app is customer loyalty. With all the noise out there — roadside banners, billboards, flashing signs, newspaper ads, flyers, coupons, websites, website banners, Facebook ads, and email marketing — we slowly lose our impact on customers because of the immense amount of advertising surrounding us all. It’s time to go back to making a true and sincere connection with your customers, and making them a loyal lover of your product and/or service. I am not saying a mobile app is going to save your business, but it can be a way of staying closer to your customers, and being just a “fingertip” away at all times.
+Last, but not least, the most important reason why you should consider building your own mobile app is customer loyalty. With all the noise out there — roadside banners, billboards, flashing signs, newspaper ads, flyers, coupons, websites, website banners, Facebook ads, and email marketing — we slowly lose our impact on customers because of the immense amount of advertising surrounding us all. It’s time to go back to making a true and sincere connection with your customers, and making them a loyal lover of your product and/or service. I am not saying a mobile app is going to save your business, but it can be a way of staying closer to your customers and being just a “fingertip” away at all times.
 
 Convinced yet? I am, for sure! Now that you have gotten a taste of the numerous benefits of your own business mobile app, where are you going to start?
 

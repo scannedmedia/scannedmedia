@@ -22,4 +22,4 @@ columns:
   image: "/uploads/em-logo-1.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et lacus eget leo blandit maximus ut sed lacus. Morbi rhoncus volutpat convallis. Aenean posuere vitae mi nec feugiat. Fusce euismod tortor vitae dui dictum accumsan. Praesent non dolor nulla. Sed nibh eros, vehicula vitae purus sed, congue vulputate ex. Vivamus vel odio purus. Fusce imperdiet, erat in bibendum sagittis, diam odio dictum nisi, et ultricies lorem mi ut odio.
+The Ean Marie logo is symbolic of England and English chocolate. The vintage curves give it a handmade feel while the condensed sans serif typeface gives it a contemporary/modern look. The “EM” in the logo stands for Ean Marie and uses a decorative vintage font which makes the logo more unique & classy.
