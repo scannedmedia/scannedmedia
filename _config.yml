@@ -82,6 +82,7 @@ foot:
   - icon: google-plus-square
     url: 
 contact:
+  bg-image: "/uploads/contact-bg-image.jpeg"
   title: Let's start a project!
   name: First and Last Name
   phone: Phone Number
