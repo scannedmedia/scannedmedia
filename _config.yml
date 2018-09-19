@@ -46,14 +46,13 @@ defaults:
   values:
     author: John Doe
 permalink: pretty
-url: https://www.smedia.siteleaf.net
 menu:
 - title: work
   url: "/work/"
 - title: blog
   url: "/blog/"
 - title: hire us
-  url: "/contact-us/"
+  url: "/hire-us/"
 logo: "/uploads/SM-logo-horizontal-color.svg"
 foot:
 - title: Address
