@@ -74,13 +74,13 @@ foot:
   is-social: true
   icons:
   - icon: facebook
-    url: 
+    url: https://www.facebook.com/scannedmedia/
   - icon: instagram
-    url: 
+    url: https://www.instagram.com/scannedmediacreativefirm/
   - icon: linkedin
-    url: 
+    url: https://www.linkedin.com/in/noahbotnick/
   - icon: google-plus-square
-    url: 
+    url: https://plus.google.com/+scannedMediaACreativeFirm
 contact:
   bg-image: "/uploads/contact-bg-image.jpeg"
   title: Let's start a project!
