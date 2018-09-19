@@ -35,6 +35,8 @@ services:
 layout: default
 ---
 
-From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effective ways to connect and interact with them.
-Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.
-It’s no secret that small businesses are the backbone of our economy. Any edge you can gain to stay in the ring with your heavyweight competitors is very crucial. The advantage of partnering with ScannedMedia is working with a talented and local team.
+From the moment you open your business until the end of your day, you work hard to provide customers with quality and value. When you focus on your customers, you want to find the most effective ways to connect and interact with them.<br>
+
+Our Approach to mobile and online marketing provides the tools to boost your business above the competition with apps, branding, and websites.<br>
+
+It’s no secret that small businesses are the backbone of our economy. Any edge you can gain to stay in the ring with your heavyweight competitors is very crucial. The advantage of partnering with ScannedMedia is working with a talented and local team.<br>
