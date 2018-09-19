@@ -53,7 +53,7 @@ menu:
 - title: blog
   url: "/blog/"
 - title: hire us
-  url: "/contact-us/"
+  url: "/hire-us/"
 logo: "/uploads/SM-logo-horizontal-color.svg"
 foot:
 - title: Address
