@@ -46,7 +46,6 @@ defaults:
   values:
     author: John Doe
 permalink: pretty
-url: https://www.smedia.siteleaf.net
 menu:
 - title: work
   url: "/work/"
