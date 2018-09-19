@@ -311,6 +311,7 @@ p img {
 .footer p a {
   color: #414042 !important;
   padding-right: 3px;
+  transition: color .35s ease;
 }
 .footer p a:hover {
   color: #202020 !important;
