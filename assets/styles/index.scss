@@ -308,6 +308,13 @@ p img {
 .footer {
   padding: 15px;
 }
+.footer p a {
+  color: #414042 !important;
+  padding-right: 3px;
+}
+.footer p a:hover {
+  color: #26A089 !important;
+}
 
 .bottomfoot {
   padding: 15px
