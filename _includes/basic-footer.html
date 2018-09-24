@@ -1,15 +1,23 @@
   <div class="footer has-text-darkgrey has-background-mediumgrey">
     <div class="level has-text-left has-text-centered-mobile">
      {% for item in site.foot %} 
-      <div class="level-item is-offset-2">
+      <div class="level-item {{item.title}}">
         <div>
-          <h5 class="subtitle has-text-weight-bold is-marginless">{{item.title}}</h5>
+          <h5 class="subtitle has-text-weight-bold is-marginless is-capitalized">{{item.title}}</h5>
           {% if item.is-social %}
             <p class="has-text-dark-grey is-size-5">
               {% for icon in item.icons %}
-                <a href="{{icon.url}}"><i class="fab fa-{{icon.icon}}"></i></a>
+                <a href="{{icon.url}}" target="_Blank">
+                  <i class="fab fa-{{icon.icon}}"></i>
+                </a>
               {% endfor %}
             </p>
+          {% elsif item.is-link %}
+            <a href="{{item.url}}" target="_Blank">
+              {% for paragraph in item.items %}
+               <p>{{ paragraph }}</p>
+              {% endfor %}
+            </a>
           {% else %}
             {% for paragraph in item.items %}
              <p>{{ paragraph }}</p>
@@ -18,6 +26,11 @@
         </div>
       </div>
       {% endfor %}
+      <div class="level-item">
+        <a href="https://app.scannedmedia.com" target="_Blank">
+          <div class="button is-radiusless is-inverted is-outlined">Client Portal</div>
+        </a>
+      </div>
       <!-- <div class="level-item">
         <div >
           <h5 class="subtitle has-text-weight-bold is-marginless">Contact</h5>
