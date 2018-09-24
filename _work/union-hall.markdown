@@ -3,7 +3,7 @@ title: Union Hall
 date: 2018-06-24 18:12:00 -07:00
 position: 6
 subtitle: Branding + Identity
-head-image: "/uploads/union-hall-banner-min.jpg"
+head-image: "/uploads/union-hall-banner-alt.jpg"
 columns:
 - column-size: is-header
   image: "/uploads/union-hall-banner-min.jpg"
