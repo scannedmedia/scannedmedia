@@ -7,7 +7,7 @@ categories:
 - website
 position: 5
 subtitle: Branding + Identity
-head-image: "/uploads/cole-sager-banner-alt-.jpg"
+head-image: "/uploads/cole-sager-banner-alt--ded552.jpg"
 columns:
 - column-size: is-header
   image: "/uploads/cole-sager-header.jpg"
