@@ -57,7 +57,7 @@ logo: "/uploads/SM-logo-horizontal-color.svg"
 foot:
 - title: Address
   url: https://www.google.com/maps/place/Scanned+Media+LLC/@47.651702,-117.4323351,17z/data=!3m1!4b1!4m5!3m4!1s0x549e19fd66fa260d:0x5f728f7abf0929!8m2!3d47.6516984!4d-117.4301411
-  is-address: true
+  is-link: true
   items:
   - '400 S Jefferson St #408,'
   - Spokane, Wa 99204
