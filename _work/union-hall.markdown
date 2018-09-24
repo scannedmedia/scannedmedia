@@ -66,7 +66,7 @@ columns:
   image: "/uploads/-xcollateral-4.png"
 ---
 
-UnionHall is speculative work created to represent a community table-based establishment. In creating the logo, we opted to “unite” the letters U and H into a ligature as a way to strengthen the unity and friendship themes that are interlaced throughout this branding project. 
+Union Hall is speculative work created to represent a community table-based establishment. In creating the logo, we opted to “unite” the letters U and H into a ligature as a way to strengthen the unity and friendship themes that are interlaced throughout this branding project. 
 
 
 The color palette was decided upon for its earthy yet regal approach. It’s able to remain relaxing and calming while falling seamlessly into vintage and modernity 
