@@ -32,6 +32,33 @@ services:
   text: A website is just the start. We’ll build a website that serves your audience
     and communicates why you’re the solution they need. Our focus is to create a website
     that will engage with your customers and generate more exposure.
+- image: "/uploads/photography.svg"
+  title: Photography
+  text: Scanned Media offers a range of photography services, from shooting your products
+    to collecting onsite or creative imagery for your website, app, or print material.
+    We'll help coordinate your idea and deliver clean and professional photography.
+- image: "/uploads/video.svg"
+  title: Videography
+  text: With the rise of video sharing websites, such as Youtube, it's become an important
+    medium in the marketing world. Whether for your website, app or social media,
+    we'll set up, plan, and execute a video shoot. Then we'll edit and produce a quality
+    video for digital release.
+- image: "/uploads/drone.svg"
+  title: Drone
+  text: Drone videos are an up-and-coming medium to impress viewers with aerial footage
+    by introducing a new perspective of the subject. It's great for real estate or
+    to enhance your website and social media. We'll capture smooth, clear and dynamic
+    shots that will highlight and accent your business.
+- image: "/uploads/social_media.svg"
+  title: Social Media Management
+  text: Target your audience on some of the most visited platforms on the web. Our
+    social media management package will handle your regular posts customized for
+    your business. We'll engage with your customers and build your online presence.
+- image: "/uploads/paid_ads.svg"
+  title: Targeted Paid Ads
+  text: Take control of your marketing with paid targeted ads and promote your business
+    in the most efficient way. It allows us to dial in on customers who would be interested
+    to effectively grow your enterprise.
 layout: default
 ---
 
