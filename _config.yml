@@ -89,8 +89,6 @@ foot:
     url: https://www.instagram.com/scannedmediacreativefirm/
   - icon: linkedin
     url: https://www.linkedin.com/in/noahbotnick/
-  - icon: google-plus-square
-    url: https://plus.google.com/+scannedMediaACreativeFirm
 contact:
   bg-image: "/uploads/contact-bg-image.jpeg"
   title: Let's start a project!
