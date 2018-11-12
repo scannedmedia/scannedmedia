@@ -2,7 +2,7 @@
 title: 4 Step Guide to Online Marketing
 date: 2018-11-12 09:15:00 -08:00
 author: Noah Botnick
-image: "/uploads/blog_post_cover-01.png"
+image: "/uploads/blog_post_cover-01-227472.png"
 ---
 
 Over the past few years, we’ve witnessed the balance of power shift from traditional marketing to online marketing.
