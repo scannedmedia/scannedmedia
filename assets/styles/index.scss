@@ -275,11 +275,8 @@ body {
   width:100%;
 }
 .blog-images {
-  //background-size: 100% auto;
-  //background-repeat: no-repeat;
- // background-attachment: fixed;
-  // accidental parralax effect. Neat.
-  // background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 .blog-posts {
