@@ -1,6 +1,6 @@
 ---
-company: Smart Wifi Connect
 title: Privacy Policy
+company: Smart Wifi Connect
 layout: terms
 ---
 
