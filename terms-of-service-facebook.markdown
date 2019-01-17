@@ -1,6 +1,6 @@
 ---
-company: Smart Wifi Connect
 title: Terms of Service
+company: Smart Wifi Connect
 layout: terms
 ---
 

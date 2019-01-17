@@ -1,6 +1,6 @@
 ---
-company: scannedMedia 
 title: Terms of Service
+company: scannedMedia
 layout: terms
 ---
 
