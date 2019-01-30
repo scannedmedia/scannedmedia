@@ -39,16 +39,19 @@
       </div>
       <article>
         <div class="container">
-          <div class="columns is-multiline is-mobile" style="margin-left: 0px;">
+          <div class="columns is-multiline">
             {% for service in page.services %}
-              <div class="column is-3-desktop is-4-tablet is-6-mobile">
-                <div class="level">
-                  <div class="level-item">
-                    <div class="has-text-centered">
-                      <img src="{{service.image}}" style="width: 75px;" alt=""><br>
-                      <h3 class="has-text-weight-bold subtitle is-marginless">
-                        {{service.title}}
-                      </h3>
+              <div class="column is-3">
+                <div class="columns is-mobile">
+                  <div class="column is-3">
+                    <img src="{{service.image}}" alt="">
+                  </div>
+                  <div class="column is-8">
+                    <h3 class="has-text-weight-bold subtitle is-marginless">
+                      {{service.title}}
+                    </h3>
+                    <div class="content">
+                      {{service.text}}
                     </div>
                   </div>
                 </div>
@@ -80,7 +83,11 @@
             </div>
           {% endfor %}
         </div>
-        {% include view-work.html %}
+        <div class="read-more has-text-right container has-text-weight-bold">
+          <p style="padding:5px;">
+            <a href="/work/">View More Work. . .</a>
+          </p>
+        </div>
       </section>
 
     <section class="section is-paddingless-hori has-background-lightgrey" id="posts">

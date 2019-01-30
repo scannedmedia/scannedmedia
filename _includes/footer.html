@@ -1,6 +1,6 @@
 <section class="hero is-fullheight" id="contact" >
   <div class="hero-body is-fullwidth" style="background: url({{site.contact.bg-image}}) center / cover; background-attachment: fixed;">
-    <div class="columns is-multiline is-centered" style="width:100%; margin-left: 0px">
+    <div class="columns is-multiline is-centered" style="width:100%;">
       <div class="column is-6 field">
         <span><h3 class="has-text-weight-bold is-size-2-desktop is-size-2-tablet is-size-3-mobile has-text-centered">{{site.contact.title}}</h3></span>
         <form class="columns is-multiline" method="POST" action="https://formspree.io/info@scannedmedia.com">
@@ -16,7 +16,7 @@
             <input class="input" type="website" name="website" placeholder="{{site.contact.website}}" required>
             <div class="control">
               <div class="select is-fullwidth">
-                <select name="service" required>
+                <select required>
                   <option value="" disabled selected hidden>Services</option>
                     {% for option in site.contact.services %}
                       <option value="{{forloop.index}}">{{option}}</option>
