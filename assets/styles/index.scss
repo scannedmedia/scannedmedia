@@ -109,11 +109,23 @@ body {
 
 // start of work styles
 .read-more a {
-  color: #26A089;
+  margin: 35px 0;
 }
 .read-more a:hover {
-  color: #414042;
+  color: $magenta !important;
 }
+.has-half-width-filled-bg {
+  width: 47.3%;
+  margin: auto;
+  padding: 11px 0px 16px 0px;
+  background: rgba(255,255,255,.7);
+}
+
+.has-half-width-filled-bg h1{
+  font-size: 3rem;
+  line-height: 1.125;
+}
+
 .work-item {
   position: relative;
 }
@@ -310,6 +322,7 @@ p img {
   margin: 25px;
 }
 
+// Footer Styles
 .footer {
   padding: 15px;
 }
@@ -324,6 +337,12 @@ p img {
   color: #202020 !important;
 }
 
+.footer .Services {
+  margin-bottom: 0px !important;
+}
+.footer .Servicescont h5 {
+  opacity: 0;
+}
 .footer .button {
   font-weight: 700;
   border-color: #4a4a4a;
@@ -525,6 +544,9 @@ select:valid {
     padding-top: 36px;
     padding-bottom: 10px;
     color: #47BEAA;
+  }
+  .footer .Servicescont h5 {
+    display: none;
   }
 }
 @media (max-width:  420px) { // mini mobile
