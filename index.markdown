@@ -18,28 +18,20 @@ testimonials:
 services:
 - image: "/uploads/apps.svg"
   title: Apps
-  text: 
 - image: "/uploads/branding.svg"
   title: Branding
-  text: 
 - image: "/uploads/web.svg"
   title: Web
-  text: 
 - image: "/uploads/photography.svg"
   title: Photography
-  text: 
 - image: "/uploads/video.svg"
   title: Videography
-  text: 
 - image: "/uploads/drone.svg"
   title: Drone
-  text: 
 - image: "/uploads/social_media.svg"
   title: Social Media Management
-  text: 
 - image: "/uploads/paid_ads.svg"
   title: Targeted Paid Ads
-  text: 
 layout: default
 ---
 
