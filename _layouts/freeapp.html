@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--  Navigation  -->
+  {% include header.html %}
+
+ <div id="free-app">
+    <div class="section">
+      <div class="container">
+        <h1 class="title has-text-centered" style="font-family: montserrat">100% FREE mobile ordering app!</h1>
+      </div>
+    </div>
+  
+    <!-- Client Testimonial Video -->
+    <div class="container">
+      <video width="100%" poster="/assets/free-ad-video/smoothybowls.png" controls>
+        <source src="/assets/free-ad-video/client-testimonial.webm" type="video/webm">
+      </video>
+    </div>
+  
+    <div class="section">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+              <h2 class="subtitle" style="font-family: montserrat">Here it from one of our clients first.</h2>
+  
+              <div class="content">
+                <p>Do you own or work at a coffee shop in Spokane, WA and have:</p>
+        
+                <ul>
+                  <li>Lost customers because your line is too long</li>
+                  <li>Had to spend the time to take notes on long orders</li>
+                  <li>Had to breathe in car exhaust or stand in the cold/wet weather to get long orders</li>
+                  <li>Had a customer demand a refund or free product because their order was not accurate?</li>
+                </ul>
+                <p>Do you want higher employee productivity while maintaining order accuracy? Would you like to grow your
+                  business by 30% in the next year by targeting millennials and stream lining your food or drink ordering
+                  process?</p>
+        
+                <p>We are a local company in Spokane, WA who specializes in building mobile Apps for coffee shops and other
+                  businesses. We are offering a one time deal for one lucky coffee shop, a custom mobile app, with food
+                  ordering, FREE for three months.</p>
+        
+                <p><strong>We’ll be selecting the winner randomly,</strong> just fill out the form below with a link to your website or
+                  facebook. One of our team members will get back to you soon.</p>
+                <p class="has-text-weight-bold">good luck!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+  
+    <!--   Footer   -->
+    <section class=" container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <form method="POST" action="https://formspree.io/info@scannedmedia.com">
+              <input type="hidden" name="_subject" value="{{site.contact.title}}" />
+              <label for="fname">Full Name:</label>
+              <input class="input" type="fname" name="fname" placeholder="{{site.contact.name}}" required>
+              <label for="phone">Phone Number:</label>
+              <input class="input" type="phone" name="phone" placeholder="{{site.contact.phone}}" required>
+              <label for="email">Email:</label>
+              <input class="input" type="email" name="email" placeholder="{{site.contact.email}}" required>
+              <label for="companyname">Company Name:</label>
+              <input class="input" type="companyname" name="companyname" placeholder="{{site.contact.org}}" required>
+              <label for="website">Website/Facebook:</label>
+              <input class="input" type="website" name="website" placeholder="{{site.contact.website}}" required>
+              <button class="button is-primary is-fullwidth" type="submit" style="margin-top:10px;">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+ </div>
+ <br><br>
+  {% include basic-footer.html %}
+  </section>
+
+  <!-- Scripts -->
+  {% include scripts.html %}
+</body>
+
+</html>

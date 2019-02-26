@@ -1,0 +1,15 @@
+#free-app .content ul {
+  list-style: none;
+  margin-left: 0;
+}
+#free-app .content ul > li {
+  text-indent: 7px;
+}
+#free-app .content ul > li:before {
+  content: "-";
+  margin-right: 10px;
+}
+#free-app form input{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
